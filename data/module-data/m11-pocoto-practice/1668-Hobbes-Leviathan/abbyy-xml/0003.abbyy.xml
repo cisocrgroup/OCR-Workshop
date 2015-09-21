@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document xmlns="http://www.abbyy.com/FineReader_xml/FineReader10-schema-v1.xml" version="1.0" producer="ABBYY FineReader Engine 11" languages="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.abbyy.com/FineReader_xml/FineReader10-schema-v1.xml http://www.abbyy.com/FineReader_xml/FineReader10-schema-v1.xml">
+<page width="2208" height="2960" resolution="600" originalCoords="1">
+<block blockType="Text" blockName="">
+<text>
+<par startIndent="144">
+<line baseline="153" l="1000" t="127" r="1173" b="154"><formatting lang="EnglishUnitedStates">
+<charParams l="1000" t="127" r="1008" b="153" suspicious="1" charConfidence="55">1</charParams>
+<charParams l="1050" t="127" r="1067" b="154" suspicious="1" charConfidence="53">9</charParams>
+<charParams l="1068" t="127" r="1105" b="154"> </charParams>
+<charParams l="1106" t="127" r="1120" b="154" suspicious="1" charConfidence="30">5</charParams>
+<charParams l="1121" t="127" r="1157" b="154"> </charParams>
+<charParams l="1158" t="127" r="1173" b="153" charConfidence="86">7</charParams></formatting></line></par>
+</text>
+</block>
+<block blockType="Text" blockName="">
+<text>
+<par align="Justified" startIndent="168" lineSpacing="1416">
+<line baseline="366" l="739" t="312" r="1433" b="367"><formatting lang="EnglishUnitedStates">
+<charParams l="739" t="315" r="776" b="366" charConfidence="42">E</charParams>
+<charParams l="790" t="314" r="833" b="365" charConfidence="97">X</charParams>
+<charParams l="834" t="314" r="881" b="365"> </charParams>
+<charParams l="882" t="314" r="915" b="365" charConfidence="100">B</charParams>
+<charParams l="930" t="314" r="945" b="364" charConfidence="54">I</charParams>
+<charParams l="962" t="314" r="995" b="365" charConfidence="100">B</charParams>
+<charParams l="1012" t="313" r="1050" b="364" charConfidence="66">L</charParams>
+<charParams l="1062" t="314" r="1077" b="364" charConfidence="65">I</charParams>
+<charParams l="1090" t="312" r="1142" b="366" charConfidence="100">O</charParams>
+<charParams l="1152" t="314" r="1198" b="365" charConfidence="96">T</charParams>
+<charParams l="1209" t="314" r="1260" b="365" charConfidence="100">H</charParams>
+<charParams l="1277" t="315" r="1314" b="365" charConfidence="46">E</charParams>
+<charParams l="1330" t="314" r="1376" b="367" charConfidence="96">C</charParams>
+<charParams l="1387" t="313" r="1433" b="366" charConfidence="100">A</charParams></formatting></line>
+<line baseline="484" l="737" t="432" r="1432" b="494"><formatting lang="EnglishUnitedStates">
+<charParams l="737" t="433" r="760" b="494" charConfidence="48">J</charParams>
+<charParams l="768" t="473" r="776" b="483" charConfidence="100">.</charParams>
+<charParams l="777" t="432" r="819" b="483"> </charParams>
+<charParams l="820" t="432" r="869" b="483" charConfidence="100">H</charParams>
+<charParams l="876" t="473" r="885" b="483" charConfidence="58">.</charParams>
+<charParams l="886" t="432" r="925" b="483"> </charParams>
+<charParams l="926" t="432" r="973" b="483" charConfidence="100">A</charParams>
+<charParams l="993" t="433" r="1043" b="483" charConfidence="100">N</charParams>
+<charParams l="1067" t="432" r="1116" b="484" charConfidence="42">D</charParams>
+<charParams l="1136" t="432" r="1172" b="484" charConfidence="54">E</charParams>
+<charParams l="1194" t="432" r="1234" b="483" charConfidence="100">R</charParams>
+<charParams l="1254" t="432" r="1304" b="483" charConfidence="100">H</charParams>
+<charParams l="1327" t="432" r="1376" b="484" charConfidence="94">U</charParams>
+<charParams l="1399" t="432" r="1432" b="484" charConfidence="44">B</charParams></formatting></line></par>
+</text>
+</block>
+</page>
+</document>

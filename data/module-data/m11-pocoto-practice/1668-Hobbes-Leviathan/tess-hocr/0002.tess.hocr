@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>
+</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name='ocr-system' content='tesseract 3.03' />
+  <meta name='ocr-capabilities' content='ocr_page ocr_carea ocr_par ocr_line ocrx_word'/>
+</head>
+<body>
+  <div class='ocr_page' id='page_1' title='image "tif/0002.tif"; bbox 0 0 2208 2960; ppageno 0'>
+   <div class='ocr_carea' id='block_1_1' title="bbox 714 161 1482 322">
+    <p class='ocr_par' dir='ltr' id='par_1_1' title="bbox 714 161 1482 322">
+     <span class='ocr_line' id='line_1_1' title="bbox 1053 161 1193 211; baseline 0 0"><span class='ocrx_word' id='word_1_1' title='bbox 1053 161 1104 211; x_wconf 92' lang='eng' dir='ltr'><strong><em>Z</em></strong></span> <span class='ocrx_word' id='word_1_2' title='bbox 1120 180 1150 210; x_wconf 94' lang='eng' dir='ltr'><strong>u</strong></span> <span class='ocrx_word' id='word_1_3' title='bbox 1165 179 1193 211; x_wconf 80' lang='eng' dir='ltr'><strong>r</strong></span> 
+     </span>
+     <span class='ocr_line' id='line_1_2' title="bbox 714 229 1482 322; baseline -0.008 -22"><span class='ocrx_word' id='word_1_4' title='bbox 714 230 1186 322; x_wconf 60' lang='eng' dir='ltr'>Hochgrazﬂich</span> <span class='ocrx_word' id='word_1_5' title='bbox 1212 229 1482 300; x_wconf 80' lang='eng' dir='ltr'>Erbach.</span> 
+     </span>
+    </p>
+   </div>
+   <div class='ocr_carea' id='block_1_2' title="bbox 818 323 1373 478">
+    <p class='ocr_par' dir='ltr' id='par_1_2' title="bbox 818 323 1373 478">
+     <span class='ocr_line' id='line_1_3' title="bbox 818 323 1373 395; baseline -0.007 1"><span class='ocrx_word' id='word_1_6' title='bbox 818 323 1373 395; x_wconf 68' lang='eng' dir='ltr'>Fijrﬂcnauifchen</span> 
+     </span>
+     <span class='ocr_line' id='line_1_4' title="bbox 972 415 1188 478; baseline -0.014 -11"><span class='ocrx_word' id='word_1_7' title='bbox 972 415 1188 478; x_wconf 82' lang='eng' dir='ltr'>Canzley</span> 
+     </span>
+    </p>
+   </div>
+   <div class='ocr_carea' id='block_1_3' title="bbox 760 480 1411 644">
+    <p class='ocr_par' dir='ltr' id='par_1_3' title="bbox 760 480 1411 644">
+     <span class='ocr_line' id='line_1_5' title="bbox 760 480 1411 556; baseline -0.006 0"><span class='ocrx_word' id='word_1_8' title='bbox 760 480 1411 556; x_wconf 83' lang='eng' dir='ltr'>BibliOthcc</span> 
+     </span>
+     <span class='ocr_line' id='line_1_6' title="bbox 975 575 1214 644; baseline 0.013 -20"><span class='ocrx_word' id='word_1_9' title='bbox 975 575 1214 644; x_wconf 70' lang='eng' dir='ltr'>gehcrrig.</span> 
+     </span>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>

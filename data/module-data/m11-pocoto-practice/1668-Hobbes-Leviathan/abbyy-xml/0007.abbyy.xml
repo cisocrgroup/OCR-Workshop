@@ -1,0 +1,933 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document xmlns="http://www.abbyy.com/FineReader_xml/FineReader10-schema-v1.xml" version="1.0" producer="ABBYY FineReader Engine 11" languages="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.abbyy.com/FineReader_xml/FineReader10-schema-v1.xml http://www.abbyy.com/FineReader_xml/FineReader10-schema-v1.xml">
+<page width="2208" height="2960" resolution="600" originalCoords="1">
+<block blockType="Text" blockName="">
+<text>
+<par align="Center" lineSpacing="2016">
+<line baseline="208" l="575" t="127" r="1619" b="211"><formatting lang="EnglishUnitedStates">
+<charParams l="575" t="131" r="639" b="211" charConfidence="56">A</charParams>
+<charParams l="645" t="129" r="699" b="209" charConfidence="37">d</charParams>
+<charParams l="700" t="129" r="736" b="211"> </charParams>
+<charParams l="737" t="129" r="821" b="211" charConfidence="27">N</charParams>
+<charParams l="825" t="157" r="875" b="207" charConfidence="91">o</charParams>
+<charParams l="879" t="129" r="931" b="207" charConfidence="100">b</charParams>
+<charParams l="937" t="133" r="959" b="205" charConfidence="73">i</charParams>
+<charParams l="967" t="131" r="987" b="207" charConfidence="100">l</charParams>
+<charParams l="995" t="133" r="1015" b="205" charConfidence="100">i</charParams>
+<charParams l="1025" t="129" r="1071" b="205" suspicious="1" charConfidence="40">f</charParams>
+<charParams l="1025" t="129" r="1071" b="205" suspicious="1" charConfidence="40">l</charParams>
+<charParams l="1071" t="127" r="1095" b="203" charConfidence="20">i</charParams>
+<charParams l="1103" t="155" r="1177" b="207" charConfidence="77">m</charParams>
+<charParams l="1181" t="155" r="1229" b="205" charConfidence="37">u</charParams>
+<charParams l="1239" t="155" r="1309" b="207" suspicious="1" charConfidence="95">m</charParams>
+<charParams l="1310" t="131" r="1346" b="209"> </charParams>
+<charParams l="1347" t="131" r="1417" b="209" charConfidence="100">V</charParams>
+<charParams l="1425" t="135" r="1445" b="205" charConfidence="69">i</charParams>
+<charParams l="1455" t="157" r="1481" b="207" charConfidence="74">r</charParams>
+<charParams l="1489" t="157" r="1529" b="205" suspicious="1" charConfidence="28">u</charParams>
+<charParams l="1543" t="157" r="1619" b="207" suspicious="1" charConfidence="56">m</charParams></formatting></line></par>
+<par align="Center" lineSpacing="2016">
+<line baseline="372" l="713" t="311" r="1501" b="377"><formatting lang="EnglishUnitedStates">
+<charParams l="713" t="317" r="771" b="377" charConfidence="100">D</charParams>
+<charParams l="772" t="315" r="836" b="377"> </charParams>
+<charParams l="837" t="315" r="899" b="375" charConfidence="79">O</charParams>
+<charParams l="900" t="315" r="960" b="375"> </charParams>
+<charParams l="961" t="315" r="1033" b="375" charConfidence="46">M</charParams>
+<charParams l="1034" t="313" r="1088" b="375"> </charParams>
+<charParams l="1089" t="313" r="1113" b="375" charConfidence="41">I</charParams>
+<charParams l="1114" t="311" r="1172" b="375"> </charParams>
+<charParams l="1173" t="311" r="1237" b="373" charConfidence="55">N</charParams>
+<charParams l="1238" t="311" r="1300" b="377"> </charParams>
+<charParams l="1301" t="311" r="1365" b="377" charConfidence="100">V</charParams>
+<charParams l="1366" t="311" r="1430" b="377"> </charParams>
+<charParams l="1431" t="311" r="1501" b="373" charConfidence="50">M</charParams></formatting></line></par>
+<par startIndent="412">
+<line baseline="584" l="250" t="446" r="1962" b="594"><formatting lang="EnglishUnitedStates">
+<charParams l="250" t="450" r="350" b="594" charConfidence="65">F</charParams>
+<charParams l="414" t="450" r="538" b="590" suspicious="1" charConfidence="33">R</charParams>
+<charParams l="590" t="450" r="722" b="590" charConfidence="100">A</charParams>
+<charParams l="782" t="446" r="922" b="590" charConfidence="50">N</charParams>
+<charParams l="990" t="446" r="1114" b="590" charConfidence="100">C</charParams>
+<charParams l="1174" t="450" r="1234" b="586" charConfidence="99">I</charParams>
+<charParams l="1298" t="450" r="1382" b="586" charConfidence="100">S</charParams>
+<charParams l="1442" t="446" r="1566" b="586" charConfidence="100">C</charParams>
+<charParams l="1622" t="450" r="1750" b="594" charConfidence="96">V</charParams>
+<charParams l="1806" t="446" r="1962" b="586" charConfidence="100">M</charParams></formatting></line></par>
+<par leftIndent="2000" startIndent="-39">
+<line baseline="780" l="378" t="678" r="1834" b="798"><formatting lang="EnglishUnitedStates">
+<charParams l="378" t="686" r="478" b="790" charConfidence="100">G</charParams>
+<charParams l="510" t="686" r="610" b="790" charConfidence="100">O</charParams>
+<charParams l="646" t="686" r="750" b="790" charConfidence="77">D</charParams>
+<charParams l="790" t="682" r="890" b="786" charConfidence="100">O</charParams>
+<charParams l="922" t="682" r="1010" b="786" charConfidence="69">L</charParams>
+<charParams l="1042" t="686" r="1114" b="790" charConfidence="26">P</charParams>
+<charParams l="1146" t="678" r="1254" b="786" charConfidence="50">H</charParams>
+<charParams l="1290" t="678" r="1338" b="782" charConfidence="60">I</charParams>
+<charParams l="1370" t="678" r="1490" b="786" charConfidence="47">N</charParams>
+<charParams l="1530" t="678" r="1622" b="782" charConfidence="100">V</charParams>
+<charParams l="1658" t="678" r="1778" b="782" charConfidence="58">M</charParams>
+<charParams l="1806" t="758" r="1834" b="798" charConfidence="67">,</charParams></formatting></line></par>
+<par align="Center">
+<line baseline="963" l="496" t="886" r="1724" b="995"><formatting lang="EnglishUnitedStates">
+<charParams l="496" t="894" r="554" b="968" charConfidence="95">E</charParams>
+<charParams l="564" t="918" r="615" b="995" charConfidence="47">q</charParams>
+<charParams l="620" t="919" r="666" b="966" charConfidence="65">u</charParams>
+<charParams l="674" t="894" r="695" b="965" charConfidence="100">i</charParams>
+<charParams l="702" t="914" r="730" b="966" charConfidence="69">t</charParams>
+<charParams l="737" t="917" r="774" b="965" charConfidence="100">e</charParams>
+<charParams l="782" t="915" r="854" b="966" charConfidence="75">m</charParams>
+<charParams l="855" t="891" r="884" b="968"> </charParams>
+<charParams l="885" t="891" r="962" b="968" charConfidence="100">O</charParams>
+<charParams l="970" t="916" r="1004" b="964" charConfidence="32">r</charParams>
+<charParams l="1010" t="886" r="1056" b="963" charConfidence="100">d</charParams>
+<charParams l="1066" t="890" r="1085" b="963" charConfidence="85">i</charParams>
+<charParams l="1093" t="914" r="1139" b="962" charConfidence="55">n</charParams>
+<charParams l="1145" t="890" r="1167" b="962" charConfidence="100">i</charParams>
+<charParams l="1174" t="914" r="1205" b="963" charConfidence="100">s</charParams>
+<charParams l="1206" t="888" r="1240" b="964"> </charParams>
+<charParams l="1241" t="888" r="1298" b="964" charConfidence="88">B</charParams>
+<charParams l="1307" t="913" r="1344" b="962" charConfidence="29">a</charParams>
+<charParams l="1349" t="887" r="1373" b="962" charConfidence="35">l</charParams>
+<charParams l="1377" t="912" r="1427" b="961" charConfidence="19">n</charParams>
+<charParams l="1433" t="912" r="1469" b="961" charConfidence="57">e</charParams>
+<charParams l="1478" t="911" r="1525" b="960" charConfidence="85">o</charParams>
+<charParams l="1533" t="911" r="1565" b="960" charConfidence="68">r</charParams>
+<charParams l="1569" t="911" r="1616" b="959" charConfidence="76">u</charParams>
+<charParams l="1623" t="910" r="1698" b="960" charConfidence="63">m</charParams>
+<charParams l="1709" t="943" r="1724" b="959" charConfidence="37">.</charParams></formatting></line></par>
+<par align="Justified" startIndent="6663" lineSpacing="1080">
+<line baseline="1142" l="772" t="1077" r="1963" b="1168"><formatting lang="EnglishUnitedStates">
+<charParams l="772" t="1090" r="828" b="1148" charConfidence="50">R</charParams>
+<charParams l="835" t="1108" r="867" b="1146" charConfidence="27">a</charParams>
+<charParams l="875" t="1106" r="897" b="1147" charConfidence="25">t</charParams>
+<charParams l="903" t="1111" r="927" b="1146" charConfidence="84">r</charParams>
+<charParams l="931" t="1087" r="948" b="1143" charConfidence="45">i</charParams>
+<charParams l="949" t="1087" r="973" b="1143"> </charParams>
+<charParams l="974" t="1104" r="995" b="1143" charConfidence="100">t</charParams>
+<charParams l="1001" t="1109" r="1039" b="1143" suspicious="1" charConfidence="31">u</charParams>
+<charParams l="1043" t="1107" r="1080" b="1142" charConfidence="100">o</charParams>
+<charParams l="1081" t="1088" r="1102" b="1144"> </charParams>
+<charParams l="1103" t="1088" r="1137" b="1144" charConfidence="67">S</charParams>
+<charParams l="1141" t="1087" r="1158" b="1144" charConfidence="85">i</charParams>
+<charParams l="1164" t="1081" r="1202" b="1142" suspicious="1" charConfidence="29">d</charParams>
+<charParams l="1209" t="1106" r="1245" b="1145" charConfidence="26">n</charParams>
+<charParams l="1255" t="1106" r="1286" b="1143" charConfidence="69">e</charParams>
+<charParams l="1292" t="1105" r="1330" b="1142" charConfidence="39">o</charParams>
+<charParams l="1331" t="1085" r="1352" b="1144"> </charParams>
+<charParams l="1353" t="1085" r="1406" b="1144" charConfidence="99">G</charParams>
+<charParams l="1415" t="1104" r="1452" b="1143" charConfidence="79">o</charParams>
+<charParams l="1458" t="1079" r="1495" b="1141" charConfidence="100">d</charParams>
+<charParams l="1503" t="1103" r="1539" b="1142" charConfidence="61">o</charParams>
+<charParams l="1546" t="1080" r="1562" b="1142" charConfidence="55">l</charParams>
+<charParams l="1569" t="1104" r="1605" b="1168" charConfidence="100">p</charParams>
+<charParams l="1610" t="1080" r="1651" b="1142" suspicious="1" charConfidence="20">h</charParams>
+<charParams l="1655" t="1083" r="1670" b="1141" charConfidence="40">i</charParams>
+<charParams l="1678" t="1101" r="1716" b="1140" charConfidence="47">n</charParams>
+<charParams l="1721" t="1101" r="1759" b="1140" charConfidence="54">o</charParams>
+<charParams l="1760" t="1077" r="1794" b="1163"> </charParams>
+<charParams l="1795" t="1077" r="1817" b="1163" charConfidence="38">(</charParams>
+<charParams l="1825" t="1082" r="1889" b="1142" charConfidence="49">N</charParams>
+<charParams l="1895" t="1101" r="1932" b="1140" charConfidence="92">o</charParams>
+<charParams l="1936" t="1119" r="1963" b="1130" charConfidence="23">-</charParams></formatting></line>
+<line baseline="1231" l="769" t="1167" r="1962" b="1259"><formatting lang="EnglishUnitedStates">
+<charParams l="769" t="1167" r="810" b="1237" charConfidence="100">b</charParams>
+<charParams l="816" t="1176" r="832" b="1234" charConfidence="64">i</charParams>
+<charParams l="839" t="1172" r="854" b="1233" charConfidence="100">l</charParams>
+<charParams l="860" t="1177" r="874" b="1234" charConfidence="42">i</charParams>
+<charParams l="884" t="1171" r="922" b="1233" suspicious="1" charConfidence="38">f</charParams>
+<charParams l="884" t="1171" r="922" b="1233" suspicious="1" charConfidence="38">l</charParams>
+<charParams l="922" t="1170" r="938" b="1233" charConfidence="13">i</charParams>
+<charParams l="945" t="1194" r="1005" b="1231" charConfidence="86">m</charParams>
+<charParams l="1011" t="1194" r="1041" b="1233" charConfidence="63">e</charParams>
+<charParams l="1042" t="1174" r="1065" b="1234"> </charParams>
+<charParams l="1066" t="1174" r="1122" b="1234" charConfidence="57">D</charParams>
+<charParams l="1129" t="1193" r="1167" b="1232" charConfidence="78">o</charParams>
+<charParams l="1172" t="1192" r="1235" b="1233" suspicious="1" charConfidence="50">m</charParams>
+<charParams l="1240" t="1172" r="1258" b="1232" charConfidence="100">i</charParams>
+<charParams l="1264" t="1191" r="1300" b="1231" charConfidence="29">n</charParams>
+<charParams l="1308" t="1192" r="1338" b="1232" charConfidence="55">e</charParams>
+<charParams l="1342" t="1172" r="1364" b="1258" charConfidence="28">)</charParams>
+<charParams l="1365" t="1172" r="1397" b="1259"> </charParams>
+<charParams l="1398" t="1193" r="1436" b="1259" charConfidence="55">q</charParams>
+<charParams l="1446" t="1193" r="1480" b="1230" charConfidence="44">u</charParams>
+<charParams l="1486" t="1193" r="1518" b="1233" charConfidence="31">a</charParams>
+<charParams l="1523" t="1193" r="1561" b="1232" charConfidence="51">n</charParams>
+<charParams l="1568" t="1190" r="1589" b="1231" charConfidence="30">t</charParams>
+<charParams l="1596" t="1193" r="1632" b="1231" charConfidence="55">u</charParams>
+<charParams l="1637" t="1192" r="1698" b="1231" charConfidence="37">m</charParams>
+<charParams l="1699" t="1191" r="1718" b="1257"> </charParams>
+<charParams l="1719" t="1191" r="1758" b="1257" charConfidence="100">p</charParams>
+<charParams l="1761" t="1167" r="1777" b="1229" charConfidence="90">l</charParams>
+<charParams l="1784" t="1190" r="1813" b="1230" charConfidence="16">a</charParams>
+<charParams l="1819" t="1194" r="1850" b="1233" charConfidence="24">c</charParams>
+<charParams l="1857" t="1193" r="1892" b="1230" charConfidence="47">u</charParams>
+<charParams l="1899" t="1190" r="1930" b="1229" charConfidence="41">e</charParams>
+<charParams l="1936" t="1212" r="1962" b="1225" suspicious="1" charConfidence="0">-</charParams></formatting></line>
+<line baseline="1323" l="770" t="1258" r="1960" b="1348"><formatting lang="EnglishUnitedStates">
+<charParams l="770" t="1288" r="789" b="1327" suspicious="1" charConfidence="25">l</charParams>
+<charParams l="800" t="1265" r="817" b="1325" charConfidence="87">i</charParams>
+<charParams l="824" t="1285" r="860" b="1323" charConfidence="71">n</charParams>
+<charParams l="869" t="1281" r="891" b="1324" charConfidence="47">t</charParams>
+<charParams l="892" t="1260" r="923" b="1324"> </charParams>
+<charParams l="924" t="1260" r="970" b="1324" suspicious="1" charConfidence="63">f</charParams>
+<charParams l="924" t="1260" r="970" b="1324" suspicious="1" charConfidence="63">t</charParams>
+<charParams l="975" t="1285" r="1012" b="1324" charConfidence="60">u</charParams>
+<charParams l="1018" t="1260" r="1054" b="1323" charConfidence="100">d</charParams>
+<charParams l="1062" t="1264" r="1075" b="1323" charConfidence="100">i</charParams>
+<charParams l="1083" t="1284" r="1117" b="1325" charConfidence="35">a</charParams>
+<charParams l="1118" t="1283" r="1155" b="1325"> </charParams>
+<charParams l="1156" t="1283" r="1217" b="1324" charConfidence="23">m</charParams>
+<charParams l="1226" t="1283" r="1258" b="1323" charConfidence="84">e</charParams>
+<charParams l="1263" t="1281" r="1293" b="1322" charConfidence="49">a</charParams>
+<charParams l="1310" t="1288" r="1326" b="1335" suspicious="1" charConfidence="14">j</charParams>
+<charParams l="1327" t="1283" r="1372" b="1348"> </charParams>
+<charParams l="1373" t="1283" r="1411" b="1348" charConfidence="25">q</charParams>
+<charParams l="1419" t="1284" r="1456" b="1323" charConfidence="100">u</charParams>
+<charParams l="1461" t="1281" r="1493" b="1325" charConfidence="4">a</charParams>
+<charParams l="1500" t="1282" r="1537" b="1322" charConfidence="100">n</charParams>
+<charParams l="1543" t="1277" r="1565" b="1321" charConfidence="71">t</charParams>
+<charParams l="1572" t="1283" r="1605" b="1321" charConfidence="32">u</charParams>
+<charParams l="1612" t="1282" r="1675" b="1322" charConfidence="100">m</charParams>
+<charParams l="1676" t="1262" r="1716" b="1322"> </charParams>
+<charParams l="1717" t="1262" r="1734" b="1320" charConfidence="27">i</charParams>
+<charParams l="1741" t="1258" r="1754" b="1318" charConfidence="74">l</charParams>
+<charParams l="1760" t="1258" r="1777" b="1319" charConfidence="100">l</charParams>
+<charParams l="1781" t="1281" r="1813" b="1320" charConfidence="86">e</charParams>
+<charParams l="1814" t="1267" r="1836" b="1323"> </charParams>
+<charParams l="1837" t="1267" r="1892" b="1323" charConfidence="100">A</charParams>
+<charParams l="1896" t="1287" r="1932" b="1324" charConfidence="100">u</charParams>
+<charParams l="1935" t="1299" r="1960" b="1310" charConfidence="58">-</charParams></formatting></line>
+<line baseline="1412" l="770" t="1346" r="1963" b="1438"><formatting lang="EnglishUnitedStates">
+<charParams l="770" t="1371" r="794" b="1413" charConfidence="44">t</charParams>
+<charParams l="799" t="1351" r="840" b="1416" charConfidence="42">h</charParams>
+<charParams l="845" t="1374" r="883" b="1414" charConfidence="68">o</charParams>
+<charParams l="889" t="1375" r="914" b="1414" suspicious="1" charConfidence="56">r</charParams>
+<charParams l="919" t="1356" r="933" b="1415" charConfidence="100">i</charParams>
+<charParams l="942" t="1372" r="964" b="1415" charConfidence="32">t</charParams>
+<charParams l="971" t="1374" r="1001" b="1414" charConfidence="0">a</charParams>
+<charParams l="1007" t="1369" r="1029" b="1414" charConfidence="70">t</charParams>
+<charParams l="1035" t="1373" r="1066" b="1413" charConfidence="84">e</charParams>
+<charParams l="1067" t="1349" r="1087" b="1437"> </charParams>
+<charParams l="1088" t="1349" r="1121" b="1437" charConfidence="58">J</charParams>
+<charParams l="1130" t="1374" r="1166" b="1414" charConfidence="24">u</charParams>
+<charParams l="1171" t="1350" r="1208" b="1414" charConfidence="100">d</charParams>
+<charParams l="1211" t="1353" r="1231" b="1414" charConfidence="73">i</charParams>
+<charParams l="1236" t="1375" r="1267" b="1415" charConfidence="100">c</charParams>
+<charParams l="1273" t="1353" r="1289" b="1413" charConfidence="79">i</charParams>
+<charParams l="1295" t="1352" r="1312" b="1411" charConfidence="100">i</charParams>
+<charParams l="1313" t="1346" r="1342" b="1412"> </charParams>
+<charParams l="1343" t="1346" r="1379" b="1412" charConfidence="30">f</charParams>
+<charParams l="1367" t="1373" r="1400" b="1411" charConfidence="100">u</charParams>
+<charParams l="1404" t="1354" r="1422" b="1412" charConfidence="57">i</charParams>
+<charParams l="1423" t="1354" r="1459" b="1412"> </charParams>
+<charParams l="1460" t="1372" r="1493" b="1412" charConfidence="7">a</charParams>
+<charParams l="1498" t="1372" r="1538" b="1438" charConfidence="100">p</charParams>
+<charParams l="1542" t="1373" r="1579" b="1412" charConfidence="53">u</charParams>
+<charParams l="1586" t="1348" r="1624" b="1410" charConfidence="100">d</charParams>
+<charParams l="1625" t="1348" r="1658" b="1410"> </charParams>
+<charParams l="1659" t="1374" r="1691" b="1410" charConfidence="100">v</charParams>
+<charParams l="1696" t="1351" r="1711" b="1410" charConfidence="76">i</charParams>
+<charParams l="1717" t="1373" r="1744" b="1410" suspicious="1" charConfidence="67">r</charParams>
+<charParams l="1748" t="1371" r="1785" b="1409" charConfidence="59">o</charParams>
+<charParams l="1790" t="1371" r="1813" b="1410" charConfidence="100">s</charParams>
+<charParams l="1814" t="1348" r="1852" b="1411"> </charParams>
+<charParams l="1853" t="1348" r="1892" b="1411" charConfidence="46">b</charParams>
+<charParams l="1897" t="1373" r="1933" b="1410" charConfidence="31">o</charParams>
+<charParams l="1936" t="1388" r="1963" b="1401" charConfidence="55">-</charParams></formatting></line>
+<line baseline="1502" l="770" t="1436" r="1963" b="1529"><formatting lang="EnglishUnitedStates">
+<charParams l="770" t="1465" r="809" b="1506" charConfidence="100">n</charParams>
+<charParams l="815" t="1463" r="852" b="1503" charConfidence="57">o</charParams>
+<charParams l="858" t="1465" r="882" b="1506" charConfidence="100">s</charParams>
+<charParams l="883" t="1465" r="908" b="1506"> </charParams>
+<charParams l="909" t="1465" r="969" b="1503" charConfidence="0">m</charParams>
+<charParams l="976" t="1464" r="1008" b="1504" charConfidence="96">e</charParams>
+<charParams l="1009" t="1463" r="1027" b="1504"> </charParams>
+<charParams l="1028" t="1463" r="1065" b="1503" charConfidence="52">o</charParams>
+<charParams l="1072" t="1465" r="1099" b="1505" suspicious="1" charConfidence="34">r</charParams>
+<charParams l="1105" t="1464" r="1141" b="1503" charConfidence="30">n</charParams>
+<charParams l="1145" t="1463" r="1180" b="1506" charConfidence="100">a</charParams>
+<charParams l="1184" t="1466" r="1218" b="1503" charConfidence="100">v</charParams>
+<charParams l="1225" t="1463" r="1256" b="1503" charConfidence="100">e</charParams>
+<charParams l="1262" t="1464" r="1284" b="1503" charConfidence="73">r</charParams>
+<charParams l="1290" t="1443" r="1307" b="1504" charConfidence="91">i</charParams>
+<charParams l="1313" t="1459" r="1337" b="1503" suspicious="1" charConfidence="30">t</charParams>
+<charParams l="1359" t="1471" r="1375" b="1515" suspicious="1" charConfidence="38">;</charParams>
+<charParams l="1376" t="1462" r="1411" b="1529"> </charParams>
+<charParams l="1412" t="1462" r="1452" b="1529" charConfidence="100">q</charParams>
+<charParams l="1459" t="1462" r="1493" b="1501" charConfidence="47">u</charParams>
+<charParams l="1499" t="1460" r="1529" b="1502" charConfidence="11">a</charParams>
+<charParams l="1537" t="1460" r="1576" b="1501" charConfidence="100">n</charParams>
+<charParams l="1582" t="1456" r="1603" b="1500" charConfidence="57">t</charParams>
+<charParams l="1608" t="1461" r="1646" b="1500" charConfidence="48">o</charParams>
+<charParams l="1647" t="1436" r="1668" b="1501"> </charParams>
+<charParams l="1669" t="1436" r="1708" b="1501" charConfidence="100">d</charParams>
+<charParams l="1714" t="1461" r="1745" b="1500" charConfidence="70">e</charParams>
+<charParams l="1752" t="1460" r="1788" b="1501" charConfidence="100">n</charParams>
+<charParams l="1794" t="1441" r="1809" b="1500" charConfidence="46">i</charParams>
+<charParams l="1816" t="1460" r="1856" b="1528" charConfidence="0">q</charParams>
+<charParams l="1861" t="1462" r="1897" b="1500" charConfidence="56">u</charParams>
+<charParams l="1903" t="1462" r="1935" b="1501" charConfidence="100">e</charParams>
+<charParams l="1943" t="1490" r="1963" b="1518" suspicious="1" charConfidence="55">,</charParams></formatting></line>
+<line baseline="1592" l="768" t="1527" r="1964" b="1621"><formatting lang="EnglishUnitedStates">
+<charParams l="768" t="1529" r="807" b="1595" charConfidence="100">d</charParams>
+<charParams l="813" t="1556" r="850" b="1594" charConfidence="37">u</charParams>
+<charParams l="854" t="1556" r="879" b="1595" charConfidence="30">r</charParams>
+<charParams l="883" t="1534" r="900" b="1594" charConfidence="100">i</charParams>
+<charParams l="905" t="1530" r="944" b="1594" suspicious="1" charConfidence="30">f</charParams>
+<charParams l="905" t="1530" r="944" b="1594" suspicious="1" charConfidence="30">l</charParams>
+<charParams l="944" t="1529" r="962" b="1595" charConfidence="23">i</charParams>
+<charParams l="969" t="1554" r="1029" b="1594" charConfidence="55">m</charParams>
+<charParams l="1035" t="1535" r="1052" b="1594" charConfidence="100">i</charParams>
+<charParams l="1058" t="1555" r="1082" b="1596" charConfidence="92">s</charParams>
+<charParams l="1083" t="1550" r="1105" b="1596"> </charParams>
+<charParams l="1106" t="1550" r="1132" b="1595" charConfidence="44">t</charParams>
+<charParams l="1137" t="1554" r="1168" b="1594" charConfidence="48">e</charParams>
+<charParams l="1174" t="1553" r="1235" b="1594" charConfidence="100">m</charParams>
+<charParams l="1238" t="1553" r="1280" b="1621" charConfidence="24">p</charParams>
+<charParams l="1285" t="1552" r="1322" b="1593" charConfidence="63">o</charParams>
+<charParams l="1328" t="1553" r="1354" b="1593" charConfidence="38">r</charParams>
+<charParams l="1357" t="1533" r="1374" b="1593" charConfidence="48">i</charParams>
+<charParams l="1381" t="1528" r="1419" b="1593" charConfidence="57">b</charParams>
+<charParams l="1425" t="1553" r="1460" b="1591" charConfidence="44">u</charParams>
+<charParams l="1465" t="1552" r="1489" b="1592" charConfidence="48">s</charParams>
+<charParams l="1492" t="1579" r="1510" b="1609" charConfidence="57">,</charParams>
+<charParams l="1511" t="1527" r="1536" b="1609"> </charParams>
+<charParams l="1537" t="1527" r="1576" b="1593" charConfidence="100">b</charParams>
+<charParams l="1582" t="1551" r="1612" b="1591" charConfidence="40">e</charParams>
+<charParams l="1620" t="1550" r="1655" b="1589" charConfidence="83">n</charParams>
+<charParams l="1662" t="1551" r="1694" b="1591" charConfidence="59">e</charParams>
+<charParams l="1698" t="1527" r="1738" b="1592" suspicious="1" charConfidence="97">f</charParams>
+<charParams l="1698" t="1527" r="1738" b="1592" suspicious="1" charConfidence="97">i</charParams>
+<charParams l="1743" t="1553" r="1772" b="1593" charConfidence="27">c</charParams>
+<charParams l="1779" t="1532" r="1796" b="1591" charConfidence="84">i</charParams>
+<charParams l="1802" t="1551" r="1840" b="1589" charConfidence="100">o</charParams>
+<charParams l="1841" t="1551" r="1863" b="1590"> </charParams>
+<charParams l="1864" t="1552" r="1924" b="1590" charConfidence="100">m</charParams>
+<charParams l="1931" t="1552" r="1964" b="1591" charConfidence="73">e</charParams></formatting></line>
+<line baseline="1683" l="245" t="1615" r="1965" b="1709"><formatting lang="EnglishUnitedStates">
+<charParams l="245" t="1640" r="279" b="1682" charConfidence="9">a</charParams>
+<charParams l="285" t="1616" r="320" b="1680" suspicious="1" charConfidence="100">d</charParams>
+<charParams l="325" t="1622" r="343" b="1707" suspicious="1" charConfidence="91">j</charParams>
+<charParams l="353" t="1642" r="389" b="1681" charConfidence="45">u</charParams>
+<charParams l="394" t="1643" r="427" b="1682" charConfidence="100">v</charParams>
+<charParams l="433" t="1641" r="465" b="1682" charConfidence="100">e</charParams>
+<charParams l="472" t="1643" r="495" b="1683" charConfidence="66">r</charParams>
+<charParams l="499" t="1620" r="516" b="1683" charConfidence="66">i</charParams>
+<charParams l="523" t="1636" r="546" b="1682" suspicious="1" charConfidence="100">t</charParams>
+<charParams l="569" t="1669" r="589" b="1698" charConfidence="55">,</charParams>
+<charParams l="590" t="1621" r="610" b="1698"> </charParams>
+<charParams l="611" t="1621" r="627" b="1682" charConfidence="44">i</charParams>
+<charParams l="632" t="1641" r="671" b="1709" charConfidence="100">p</charParams>
+<charParams l="675" t="1615" r="713" b="1681" charConfidence="32">f</charParams>
+<charParams l="700" t="1642" r="731" b="1682" charConfidence="55">e</charParams>
+<charParams l="732" t="1642" r="757" b="1685"> </charParams>
+<charParams l="758" t="1644" r="794" b="1685" charConfidence="63">n</charParams>
+<charParams l="800" t="1646" r="840" b="1684" charConfidence="100">o</charParams>
+<charParams l="846" t="1620" r="893" b="1687" suspicious="1" charConfidence="36">f</charParams>
+<charParams l="846" t="1620" r="893" b="1687" suspicious="1" charConfidence="36">t</charParams>
+<charParams l="896" t="1624" r="913" b="1684" charConfidence="35">i</charParams>
+<charParams l="921" t="1672" r="935" b="1687" charConfidence="68">.</charParams>
+<charParams l="936" t="1625" r="984" b="1687"> </charParams>
+<charParams l="985" t="1625" r="1041" b="1686" charConfidence="100">C</charParams>
+<charParams l="1047" t="1644" r="1085" b="1684" charConfidence="94">o</charParams>
+<charParams l="1091" t="1644" r="1152" b="1686" charConfidence="0">m</charParams>
+<charParams l="1160" t="1644" r="1223" b="1685" charConfidence="51">m</charParams>
+<charParams l="1227" t="1644" r="1258" b="1685" charConfidence="41">e</charParams>
+<charParams l="1263" t="1643" r="1325" b="1683" charConfidence="100">m</charParams>
+<charParams l="1331" t="1643" r="1369" b="1683" charConfidence="46">o</charParams>
+<charParams l="1375" t="1644" r="1400" b="1684" charConfidence="19">r</charParams>
+<charParams l="1405" t="1643" r="1445" b="1683" charConfidence="34">o</charParams>
+<charParams l="1446" t="1641" r="1471" b="1684"> </charParams>
+<charParams l="1472" t="1641" r="1504" b="1684" charConfidence="100">a</charParams>
+<charParams l="1508" t="1642" r="1545" b="1682" charConfidence="66">u</charParams>
+<charParams l="1552" t="1637" r="1572" b="1682" charConfidence="37">t</charParams>
+<charParams l="1577" t="1642" r="1608" b="1682" charConfidence="50">e</charParams>
+<charParams l="1616" t="1643" r="1676" b="1683" suspicious="1" charConfidence="100">m</charParams>
+<charParams l="1697" t="1668" r="1716" b="1697" charConfidence="55">,</charParams>
+<charParams l="1717" t="1640" r="1744" b="1697"> </charParams>
+<charParams l="1745" t="1640" r="1783" b="1684" charConfidence="15">n</charParams>
+<charParams l="1787" t="1641" r="1825" b="1680" charConfidence="84">o</charParams>
+<charParams l="1833" t="1641" r="1872" b="1681" charConfidence="17">n</charParams>
+<charParams l="1873" t="1641" r="1896" b="1681"> </charParams>
+<charParams l="1897" t="1642" r="1936" b="1681" charConfidence="53">u</charParams>
+<charParams l="1941" t="1637" r="1965" b="1681" suspicious="1" charConfidence="19">t</charParams></formatting></line>
+<line baseline="1773" l="245" t="1705" r="1965" b="1788"><formatting lang="EnglishUnitedStates">
+<charParams l="245" t="1706" r="281" b="1769" charConfidence="41">f</charParams>
+<charParams l="276" t="1730" r="309" b="1772" charConfidence="100">a</charParams>
+<charParams l="311" t="1732" r="349" b="1770" charConfidence="66">v</charParams>
+<charParams l="354" t="1731" r="391" b="1769" charConfidence="57">o</charParams>
+<charParams l="398" t="1732" r="424" b="1770" charConfidence="100">r</charParams>
+<charParams l="430" t="1732" r="460" b="1771" charConfidence="64">e</charParams>
+<charParams l="467" t="1732" r="529" b="1772" charConfidence="100">m</charParams>
+<charParams l="530" t="1732" r="554" b="1788"> </charParams>
+<charParams l="555" t="1759" r="572" b="1788" charConfidence="61">,</charParams>
+<charParams l="573" t="1732" r="616" b="1788"> </charParams>
+<charParams l="617" t="1732" r="650" b="1772" charConfidence="100">a</charParams>
+<charParams l="656" t="1732" r="714" b="1771" charConfidence="100">m</charParams>
+<charParams l="718" t="1712" r="737" b="1772" charConfidence="72">i</charParams>
+<charParams l="742" t="1735" r="774" b="1774" charConfidence="100">c</charParams>
+<charParams l="779" t="1735" r="816" b="1774" charConfidence="76">o</charParams>
+<charParams l="822" t="1736" r="848" b="1774" charConfidence="59">r</charParams>
+<charParams l="853" t="1735" r="889" b="1773" charConfidence="43">u</charParams>
+<charParams l="897" t="1734" r="967" b="1774" charConfidence="0">m</charParams>
+<charParams l="968" t="1734" r="998" b="1774"> </charParams>
+<charParams l="999" t="1734" r="1036" b="1773" charConfidence="73">v</charParams>
+<charParams l="1040" t="1715" r="1056" b="1773" charConfidence="100">i</charParams>
+<charParams l="1063" t="1735" r="1086" b="1774" charConfidence="40">r</charParams>
+<charParams l="1091" t="1731" r="1116" b="1776" charConfidence="32">t</charParams>
+<charParams l="1120" t="1736" r="1156" b="1774" charConfidence="58">u</charParams>
+<charParams l="1161" t="1730" r="1185" b="1773" charConfidence="43">t</charParams>
+<charParams l="1191" t="1734" r="1223" b="1773" charConfidence="42">e</charParams>
+<charParams l="1226" t="1733" r="1289" b="1775" suspicious="1" charConfidence="2">m</charParams>
+<charParams l="1290" t="1708" r="1322" b="1775"> </charParams>
+<charParams l="1323" t="1708" r="1359" b="1771" charConfidence="23">f</charParams>
+<charParams l="1351" t="1731" r="1384" b="1773" charConfidence="100">a</charParams>
+<charParams l="1387" t="1733" r="1419" b="1773" charConfidence="37">c</charParams>
+<charParams l="1424" t="1713" r="1442" b="1772" charConfidence="67">i</charParams>
+<charParams l="1447" t="1733" r="1479" b="1773" charConfidence="100">a</charParams>
+<charParams l="1484" t="1732" r="1545" b="1772" suspicious="1" charConfidence="100">m</charParams>
+<charParams l="1546" t="1732" r="1569" b="1772"> </charParams>
+<charParams l="1570" t="1732" r="1631" b="1772" suspicious="1" charConfidence="100">m</charParams>
+<charParams l="1638" t="1731" r="1668" b="1770" charConfidence="34">e</charParams>
+<charParams l="1673" t="1730" r="1706" b="1772" charConfidence="1">a</charParams>
+<charParams l="1712" t="1731" r="1771" b="1770" suspicious="1" charConfidence="100">m</charParams>
+<charParams l="1772" t="1731" r="1797" b="1787"> </charParams>
+<charParams l="1798" t="1759" r="1819" b="1787" charConfidence="66">,</charParams>
+<charParams l="1820" t="1705" r="1863" b="1787"> </charParams>
+<charParams l="1864" t="1705" r="1919" b="1771" charConfidence="63">f</charParams>
+<charParams l="1864" t="1705" r="1919" b="1771" charConfidence="63">e</charParams>
+<charParams l="1923" t="1708" r="1965" b="1772" charConfidence="53">d</charParams></formatting></line>
+<line baseline="1861" l="248" t="1798" r="1964" b="1888"><formatting lang="EnglishUnitedStates">
+<charParams l="248" t="1819" r="289" b="1885" charConfidence="100">q</charParams>
+<charParams l="296" t="1820" r="331" b="1858" charConfidence="68">u</charParams>
+<charParams l="336" t="1799" r="352" b="1859" charConfidence="43">i</charParams>
+<charParams l="357" t="1818" r="388" b="1858" charConfidence="0">a</charParams>
+<charParams l="389" t="1818" r="409" b="1859"> </charParams>
+<charParams l="410" t="1821" r="445" b="1859" charConfidence="33">v</charParams>
+<charParams l="448" t="1801" r="467" b="1859" charConfidence="57">i</charParams>
+<charParams l="472" t="1821" r="496" b="1858" suspicious="1" charConfidence="89">r</charParams>
+<charParams l="501" t="1819" r="538" b="1858" charConfidence="57">o</charParams>
+<charParams l="543" t="1820" r="571" b="1859" charConfidence="36">r</charParams>
+<charParams l="575" t="1820" r="612" b="1857" charConfidence="100">u</charParams>
+<charParams l="618" t="1820" r="679" b="1859" charConfidence="62">m</charParams>
+<charParams l="680" t="1820" r="703" b="1859"> </charParams>
+<charParams l="704" t="1820" r="736" b="1859" charConfidence="72">e</charParams>
+<charParams l="741" t="1824" r="777" b="1861" charConfidence="100">x</charParams>
+<charParams l="782" t="1823" r="814" b="1863" charConfidence="61">c</charParams>
+<charParams l="821" t="1823" r="852" b="1862" charConfidence="100">e</charParams>
+<charParams l="859" t="1799" r="875" b="1861" charConfidence="100">l</charParams>
+<charParams l="880" t="1801" r="897" b="1861" charConfidence="60">l</charParams>
+<charParams l="903" t="1823" r="933" b="1861" charConfidence="52">e</charParams>
+<charParams l="940" t="1822" r="978" b="1860" charConfidence="88">n</charParams>
+<charParams l="986" t="1817" r="1006" b="1861" charConfidence="50">t</charParams>
+<charParams l="1009" t="1803" r="1027" b="1861" charConfidence="44">i</charParams>
+<charParams l="1032" t="1824" r="1069" b="1862" suspicious="1" charConfidence="43">u</charParams>
+<charParams l="1073" t="1824" r="1134" b="1863" charConfidence="26">m</charParams>
+<charParams l="1140" t="1850" r="1159" b="1880" charConfidence="55">,</charParams>
+<charParams l="1160" t="1823" r="1183" b="1888"> </charParams>
+<charParams l="1184" t="1823" r="1223" b="1888" charConfidence="100">q</charParams>
+<charParams l="1229" t="1823" r="1268" b="1862" charConfidence="40">u</charParams>
+<charParams l="1273" t="1822" r="1305" b="1864" charConfidence="100">a</charParams>
+<charParams l="1309" t="1799" r="1326" b="1861" charConfidence="100">l</charParams>
+<charParams l="1330" t="1803" r="1346" b="1861" charConfidence="96">i</charParams>
+<charParams l="1350" t="1822" r="1376" b="1862" charConfidence="45">s</charParams>
+<charParams l="1377" t="1803" r="1397" b="1862"> </charParams>
+<charParams l="1398" t="1803" r="1415" b="1861" charConfidence="80">i</charParams>
+<charParams l="1420" t="1799" r="1437" b="1862" suspicious="1" charConfidence="33">l</charParams>
+<charParams l="1442" t="1799" r="1458" b="1860" suspicious="1" charConfidence="60">l</charParams>
+<charParams l="1463" t="1822" r="1495" b="1861" charConfidence="100">e</charParams>
+<charParams l="1496" t="1821" r="1519" b="1861"> </charParams>
+<charParams l="1520" t="1821" r="1553" b="1861" charConfidence="37">e</charParams>
+<charParams l="1558" t="1822" r="1584" b="1860" charConfidence="94">r</charParams>
+<charParams l="1589" t="1820" r="1621" b="1861" charConfidence="9">a</charParams>
+<charParams l="1628" t="1817" r="1651" b="1859" charConfidence="25">t</charParams>
+<charParams l="1656" t="1847" r="1675" b="1878" charConfidence="58">,</charParams>
+<charParams l="1676" t="1798" r="1700" b="1878"> </charParams>
+<charParams l="1701" t="1798" r="1739" b="1861" charConfidence="100">d</charParams>
+<charParams l="1745" t="1803" r="1759" b="1861" charConfidence="100">i</charParams>
+<charParams l="1765" t="1798" r="1784" b="1860" charConfidence="100">l</charParams>
+<charParams l="1788" t="1822" r="1819" b="1861" charConfidence="43">e</charParams>
+<charParams l="1827" t="1803" r="1860" b="1863" suspicious="1" charConfidence="23">d</charParams>
+<charParams l="1860" t="1803" r="1887" b="1864" suspicious="1" charConfidence="38">t</charParams>
+<charParams l="1891" t="1821" r="1930" b="1860" charConfidence="59">o</charParams>
+<charParams l="1935" t="1820" r="1964" b="1862" charConfidence="36">r</charParams></formatting></line>
+<line baseline="1950" l="246" t="1884" r="1966" b="1955"><formatting lang="EnglishUnitedStates">
+<charParams l="246" t="1904" r="273" b="1949" charConfidence="18">t</charParams>
+<charParams l="278" t="1908" r="307" b="1948" charConfidence="75">e</charParams>
+<charParams l="314" t="1884" r="362" b="1951" suspicious="1" charConfidence="42">f</charParams>
+<charParams l="314" t="1884" r="362" b="1951" suspicious="1" charConfidence="42">t</charParams>
+<charParams l="366" t="1887" r="383" b="1947" charConfidence="100">i</charParams>
+<charParams l="391" t="1909" r="450" b="1949" suspicious="1" charConfidence="43">m</charParams>
+<charParams l="455" t="1908" r="492" b="1947" charConfidence="98">o</charParams>
+<charParams l="499" t="1908" r="536" b="1947" charConfidence="60">n</charParams>
+<charParams l="541" t="1889" r="557" b="1948" charConfidence="85">i</charParams>
+<charParams l="562" t="1887" r="581" b="1947" charConfidence="92">i</charParams>
+<charParams l="585" t="1907" r="608" b="1947" charConfidence="100">s</charParams>
+<charParams l="615" t="1935" r="627" b="1948" charConfidence="100">.</charParams>
+<charParams l="628" t="1892" r="721" b="1953"> </charParams>
+<charParams l="722" t="1892" r="768" b="1953" charConfidence="86">E</charParams>
+<charParams l="773" t="1912" r="808" b="1950" charConfidence="65">x</charParams>
+<charParams l="815" t="1911" r="847" b="1952" charConfidence="100">c</charParams>
+<charParams l="853" t="1911" r="883" b="1952" charConfidence="50">e</charParams>
+<charParams l="887" t="1887" r="903" b="1951" charConfidence="34">l</charParams>
+<charParams l="903" t="1887" r="921" b="1952" charConfidence="74">l</charParams>
+<charParams l="925" t="1912" r="958" b="1951" charConfidence="54">u</charParams>
+<charParams l="963" t="1891" r="981" b="1952" charConfidence="74">i</charParams>
+<charParams l="986" t="1905" r="1010" b="1951" charConfidence="87">t</charParams>
+<charParams l="1011" t="1905" r="1054" b="1952"> </charParams>
+<charParams l="1055" t="1911" r="1087" b="1952" charConfidence="59">e</charParams>
+<charParams l="1093" t="1910" r="1130" b="1953" charConfidence="51">n</charParams>
+<charParams l="1135" t="1892" r="1152" b="1954" charConfidence="88">i</charParams>
+<charParams l="1158" t="1911" r="1219" b="1952" suspicious="1" charConfidence="51">m</charParams>
+<charParams l="1220" t="1911" r="1262" b="1952"> </charParams>
+<charParams l="1263" t="1913" r="1300" b="1952" charConfidence="28">v</charParams>
+<charParams l="1307" t="1892" r="1323" b="1953" charConfidence="42">i</charParams>
+<charParams l="1328" t="1912" r="1356" b="1953" charConfidence="69">r</charParams>
+<charParams l="1357" t="1891" r="1393" b="1953"> </charParams>
+<charParams l="1394" t="1891" r="1410" b="1951" charConfidence="41">i</charParams>
+<charParams l="1415" t="1889" r="1434" b="1951" charConfidence="74">l</charParams>
+<charParams l="1437" t="1887" r="1451" b="1951" charConfidence="100">l</charParams>
+<charParams l="1455" t="1911" r="1487" b="1951" charConfidence="82">e</charParams>
+<charParams l="1488" t="1911" r="1525" b="1952"> </charParams>
+<charParams l="1526" t="1912" r="1563" b="1952" charConfidence="100">v</charParams>
+<charParams l="1567" t="1890" r="1583" b="1950" charConfidence="72">i</charParams>
+<charParams l="1589" t="1911" r="1614" b="1950" suspicious="1" charConfidence="78">r</charParams>
+<charParams l="1619" t="1906" r="1640" b="1950" charConfidence="61">t</charParams>
+<charParams l="1645" t="1912" r="1682" b="1952" charConfidence="100">u</charParams>
+<charParams l="1690" t="1906" r="1713" b="1952" charConfidence="73">t</charParams>
+<charParams l="1717" t="1911" r="1749" b="1951" charConfidence="59">e</charParams>
+<charParams l="1750" t="1910" r="1789" b="1951"> </charParams>
+<charParams l="1790" t="1910" r="1830" b="1950" charConfidence="46">o</charParams>
+<charParams l="1836" t="1911" r="1896" b="1951" suspicious="1" charConfidence="100">m</charParams>
+<charParams l="1903" t="1911" r="1940" b="1951" charConfidence="52">n</charParams>
+<charParams l="1944" t="1891" r="1966" b="1955" charConfidence="46">i</charParams></formatting></line>
+<line baseline="2043" l="248" t="1974" r="1965" b="2067"><formatting lang="EnglishUnitedStates">
+<charParams l="248" t="1999" r="287" b="2066" charConfidence="100">q</charParams>
+<charParams l="293" t="1999" r="331" b="2039" charConfidence="100">u</charParams>
+<charParams l="335" t="1998" r="367" b="2040" charConfidence="100">a</charParams>
+<charParams l="372" t="1998" r="433" b="2038" suspicious="1" charConfidence="100">m</charParams>
+<charParams l="434" t="1998" r="458" b="2067"> </charParams>
+<charParams l="459" t="2000" r="497" b="2067" charConfidence="100">p</charParams>
+<charParams l="502" t="1998" r="539" b="2038" charConfidence="96">o</charParams>
+<charParams l="545" t="1974" r="593" b="2041" suspicious="1" charConfidence="57">f</charParams>
+<charParams l="545" t="1974" r="593" b="2041" suspicious="1" charConfidence="57">t</charParams>
+<charParams l="597" t="2000" r="633" b="2040" suspicious="1" charConfidence="31">u</charParams>
+<charParams l="637" t="1975" r="655" b="2041" charConfidence="100">l</charParams>
+<charParams l="659" t="2000" r="690" b="2043" charConfidence="100">a</charParams>
+<charParams l="695" t="1996" r="719" b="2041" charConfidence="55">t</charParams>
+<charParams l="722" t="2030" r="739" b="2060" charConfidence="70">,</charParams>
+<charParams l="740" t="2001" r="765" b="2060"> </charParams>
+<charParams l="766" t="2001" r="798" b="2043" charConfidence="100">a</charParams>
+<charParams l="802" t="2004" r="840" b="2044" charConfidence="57">u</charParams>
+<charParams l="846" t="1999" r="870" b="2045" charConfidence="53">t</charParams>
+<charParams l="871" t="1999" r="889" b="2045"> </charParams>
+<charParams l="890" t="2001" r="924" b="2043" charConfidence="56">c</charParams>
+<charParams l="929" t="2003" r="965" b="2043" charConfidence="100">u</charParams>
+<charParams l="970" t="1977" r="989" b="2043" charConfidence="45">l</charParams>
+<charParams l="994" t="1996" r="1017" b="2042" charConfidence="45">t</charParams>
+<charParams l="1017" t="2003" r="1056" b="2044" charConfidence="40">u</charParams>
+<charParams l="1061" t="2003" r="1084" b="2045" charConfidence="100">s</charParams>
+<charParams l="1085" t="1983" r="1108" b="2045"> </charParams>
+<charParams l="1109" t="1983" r="1166" b="2045" charConfidence="75">D</charParams>
+<charParams l="1172" t="1982" r="1189" b="2045" charConfidence="59">i</charParams>
+<charParams l="1193" t="2004" r="1229" b="2043" charConfidence="49">v</charParams>
+<charParams l="1232" t="1981" r="1250" b="2043" charConfidence="54">i</charParams>
+<charParams l="1255" t="2001" r="1294" b="2043" charConfidence="100">n</charParams>
+<charParams l="1298" t="2002" r="1336" b="2044" charConfidence="66">u</charParams>
+<charParams l="1339" t="2001" r="1363" b="2045" suspicious="1" charConfidence="50">s</charParams>
+<charParams l="1385" t="2029" r="1404" b="2060" charConfidence="58">,</charParams>
+<charParams l="1405" t="2001" r="1425" b="2060"> </charParams>
+<charParams l="1426" t="2001" r="1459" b="2043" charConfidence="100">a</charParams>
+<charParams l="1462" t="2003" r="1500" b="2042" charConfidence="100">u</charParams>
+<charParams l="1506" t="1997" r="1529" b="2042" charConfidence="32">t</charParams>
+<charParams l="1530" t="1997" r="1550" b="2044"> </charParams>
+<charParams l="1551" t="2002" r="1585" b="2044" charConfidence="69">c</charParams>
+<charParams l="1590" t="2001" r="1628" b="2042" charConfidence="43">o</charParams>
+<charParams l="1632" t="2001" r="1695" b="2042" charConfidence="100">m</charParams>
+<charParams l="1701" t="2002" r="1762" b="2043" charConfidence="34">m</charParams>
+<charParams l="1770" t="2001" r="1808" b="2041" charConfidence="44">o</charParams>
+<charParams l="1816" t="1977" r="1853" b="2042" charConfidence="100">d</charParams>
+<charParams l="1857" t="2002" r="1894" b="2041" charConfidence="100">u</charParams>
+<charParams l="1899" t="2002" r="1965" b="2044" charConfidence="37">m</charParams></formatting></line>
+<line baseline="2133" l="248" t="2067" r="1965" b="2159"><formatting lang="EnglishUnitedStates">
+<charParams l="248" t="2068" r="293" b="2130" charConfidence="32">P</charParams>
+<charParams l="300" t="2090" r="333" b="2132" charConfidence="100">a</charParams>
+<charParams l="339" t="2086" r="360" b="2130" charConfidence="100">t</charParams>
+<charParams l="364" t="2093" r="389" b="2131" charConfidence="68">r</charParams>
+<charParams l="392" t="2070" r="409" b="2130" charConfidence="90">i</charParams>
+<charParams l="417" t="2091" r="441" b="2132" suspicious="1" charConfidence="25">a</charParams>
+<charParams l="441" t="2093" r="463" b="2132" charConfidence="54">e</charParams>
+<charParams l="469" t="2120" r="488" b="2150" charConfidence="55">,</charParams>
+<charParams l="489" t="2089" r="511" b="2150"> </charParams>
+<charParams l="512" t="2089" r="545" b="2131" charConfidence="100">a</charParams>
+<charParams l="548" t="2090" r="585" b="2129" charConfidence="100">u</charParams>
+<charParams l="592" t="2088" r="615" b="2133" charConfidence="40">t</charParams>
+<charParams l="616" t="2072" r="636" b="2133"> </charParams>
+<charParams l="637" t="2072" r="671" b="2132" charConfidence="100">S</charParams>
+<charParams l="678" t="2092" r="715" b="2132" charConfidence="46">o</charParams>
+<charParams l="723" t="2096" r="756" b="2138" charConfidence="67">c</charParams>
+<charParams l="760" t="2074" r="775" b="2135" charConfidence="100">i</charParams>
+<charParams l="779" t="2094" r="810" b="2135" charConfidence="83">e</charParams>
+<charParams l="816" t="2089" r="839" b="2134" charConfidence="45">t</charParams>
+<charParams l="844" t="2094" r="876" b="2136" charConfidence="100">a</charParams>
+<charParams l="880" t="2093" r="903" b="2134" charConfidence="100">s</charParams>
+<charParams l="904" t="2072" r="931" b="2135"> </charParams>
+<charParams l="932" t="2072" r="987" b="2135" charConfidence="87">C</charParams>
+<charParams l="992" t="2073" r="1009" b="2133" charConfidence="93">i</charParams>
+<charParams l="1014" t="2095" r="1046" b="2134" charConfidence="34">v</charParams>
+<charParams l="1053" t="2074" r="1070" b="2134" charConfidence="68">i</charParams>
+<charParams l="1077" t="2069" r="1093" b="2134" charConfidence="100">l</charParams>
+<charParams l="1097" t="2073" r="1113" b="2135" charConfidence="53">i</charParams>
+<charParams l="1117" t="2093" r="1141" b="2136" charConfidence="79">s</charParams>
+<charParams l="1148" t="2119" r="1168" b="2152" suspicious="1" charConfidence="55">,</charParams>
+<charParams l="1169" t="2092" r="1193" b="2152"> </charParams>
+<charParams l="1194" t="2092" r="1225" b="2137" charConfidence="29">a</charParams>
+<charParams l="1229" t="2095" r="1269" b="2134" charConfidence="48">u</charParams>
+<charParams l="1272" t="2088" r="1296" b="2133" charConfidence="30">t</charParams>
+<charParams l="1297" t="2075" r="1315" b="2135"> </charParams>
+<charParams l="1316" t="2075" r="1372" b="2135" charConfidence="85">A</charParams>
+<charParams l="1376" t="2092" r="1437" b="2132" charConfidence="100">m</charParams>
+<charParams l="1441" t="2073" r="1458" b="2133" charConfidence="96">i</charParams>
+<charParams l="1463" t="2093" r="1494" b="2134" charConfidence="73">c</charParams>
+<charParams l="1501" t="2072" r="1517" b="2133" charConfidence="48">i</charParams>
+<charParams l="1522" t="2088" r="1547" b="2134" charConfidence="77">t</charParams>
+<charParams l="1551" t="2072" r="1567" b="2132" charConfidence="85">i</charParams>
+<charParams l="1573" t="2091" r="1605" b="2134" charConfidence="100">a</charParams>
+<charParams l="1606" t="2067" r="1626" b="2134"> </charParams>
+<charParams l="1627" t="2067" r="1670" b="2133" suspicious="1" charConfidence="100">f</charParams>
+<charParams l="1627" t="2067" r="1670" b="2133" suspicious="1" charConfidence="100">i</charParams>
+<charParams l="1677" t="2092" r="1713" b="2132" charConfidence="29">n</charParams>
+<charParams l="1715" t="2093" r="1757" b="2159" charConfidence="100">g</charParams>
+<charParams l="1762" t="2094" r="1799" b="2133" charConfidence="100">u</charParams>
+<charParams l="1804" t="2069" r="1822" b="2133" charConfidence="61">l</charParams>
+<charParams l="1827" t="2092" r="1859" b="2134" charConfidence="100">a</charParams>
+<charParams l="1864" t="2093" r="1890" b="2131" charConfidence="53">r</charParams>
+<charParams l="1892" t="2072" r="1908" b="2133" charConfidence="34">i</charParams>
+<charParams l="1914" t="2092" r="1938" b="2132" charConfidence="56">s</charParams>
+<charParams l="1944" t="2102" r="1965" b="2149" suspicious="1" charConfidence="27">;</charParams></formatting></line></par>
+<par dropCapCharsCount="1" align="Justified" startIndent="412" lineSpacing="1080">
+<line baseline="2224" l="248" t="2158" r="1964" b="2309"><formatting lang="EnglishUnitedStates">
+<charParams l="248" t="2179" r="277" b="2309" charConfidence="54">f</charParams>
+<charParams l="277" t="2181" r="289" b="2216" suspicious="1" charConfidence="26">)</charParams>
+<charParams l="295" t="2161" r="309" b="2220" charConfidence="100">i</charParams>
+<charParams l="315" t="2182" r="352" b="2222" charConfidence="94">u</charParams>
+<charParams l="355" t="2182" r="378" b="2223" charConfidence="100">s</charParams>
+<charParams l="379" t="2181" r="400" b="2223"> </charParams>
+<charParams l="401" t="2181" r="433" b="2221" charConfidence="100">e</charParams>
+<charParams l="438" t="2183" r="463" b="2222" charConfidence="45">r</charParams>
+<charParams l="468" t="2183" r="508" b="2249" charConfidence="100">g</charParams>
+<charParams l="512" t="2182" r="545" b="2224" charConfidence="100">a</charParams>
+<charParams l="546" t="2163" r="562" b="2225"> </charParams>
+<charParams l="563" t="2163" r="621" b="2225" charConfidence="100">D</charParams>
+<charParams l="629" t="2183" r="660" b="2224" charConfidence="47">e</charParams>
+<charParams l="664" t="2187" r="702" b="2227" charConfidence="55">u</charParams>
+<charParams l="706" t="2185" r="768" b="2227" suspicious="1" charConfidence="37">m</charParams>
+<charParams l="786" t="2212" r="806" b="2242" charConfidence="55">,</charParams>
+<charParams l="807" t="2185" r="833" b="2242"> </charParams>
+<charParams l="834" t="2185" r="866" b="2225" charConfidence="65">e</charParams>
+<charParams l="871" t="2186" r="897" b="2226" charConfidence="53">r</charParams>
+<charParams l="901" t="2185" r="939" b="2225" charConfidence="100">u</charParams>
+<charParams l="945" t="2159" r="980" b="2223" charConfidence="100">d</charParams>
+<charParams l="985" t="2163" r="1001" b="2226" charConfidence="51">i</charParams>
+<charParams l="1008" t="2180" r="1032" b="2226" charConfidence="44">t</charParams>
+<charParams l="1035" t="2185" r="1073" b="2225" charConfidence="100">u</charParams>
+<charParams l="1076" t="2183" r="1101" b="2225" charConfidence="100">s</charParams>
+<charParams l="1102" t="2183" r="1124" b="2227"> </charParams>
+<charParams l="1125" t="2183" r="1157" b="2227" charConfidence="34">a</charParams>
+<charParams l="1162" t="2160" r="1202" b="2224" charConfidence="100">d</charParams>
+<charParams l="1203" t="2160" r="1220" b="2226"> </charParams>
+<charParams l="1221" t="2164" r="1266" b="2226" charConfidence="43">P</charParams>
+<charParams l="1270" t="2183" r="1302" b="2225" charConfidence="12">a</charParams>
+<charParams l="1307" t="2184" r="1340" b="2225" charConfidence="100">c</charParams>
+<charParams l="1346" t="2185" r="1378" b="2226" charConfidence="50">e</charParams>
+<charParams l="1383" t="2183" r="1444" b="2224" suspicious="1" charConfidence="100">m</charParams>
+<charParams l="1468" t="2209" r="1488" b="2240" charConfidence="62">,</charParams>
+<charParams l="1489" t="2158" r="1520" b="2240"> </charParams>
+<charParams l="1521" t="2158" r="1558" b="2222" charConfidence="25">f</charParams>
+<charParams l="1550" t="2182" r="1587" b="2222" charConfidence="41">o</charParams>
+<charParams l="1593" t="2183" r="1620" b="2223" charConfidence="26">r</charParams>
+<charParams l="1626" t="2177" r="1647" b="2222" suspicious="1" charConfidence="27">t</charParams>
+<charParams l="1651" t="2163" r="1668" b="2223" charConfidence="65">i</charParams>
+<charParams l="1673" t="2183" r="1696" b="2223" charConfidence="100">s</charParams>
+<charParams l="1697" t="2183" r="1722" b="2225"> </charParams>
+<charParams l="1723" t="2183" r="1757" b="2225" charConfidence="13">a</charParams>
+<charParams l="1762" t="2159" r="1801" b="2224" charConfidence="100">d</charParams>
+<charParams l="1802" t="2159" r="1823" b="2225"> </charParams>
+<charParams l="1824" t="2163" r="1873" b="2225" charConfidence="97">B</charParams>
+<charParams l="1880" t="2182" r="1911" b="2223" charConfidence="69">e</charParams>
+<charParams l="1916" t="2159" r="1934" b="2224" suspicious="1" charConfidence="34">l</charParams>
+<charParams l="1935" t="2197" r="1964" b="2212" charConfidence="58">-</charParams></formatting></line>
+<line baseline="2315" l="277" t="2248" r="1961" b="2345"><formatting lang="EnglishUnitedStates">
+<charParams l="277" t="2272" r="312" b="2310" charConfidence="34">u</charParams>
+<charParams l="318" t="2271" r="376" b="2311" suspicious="1" charConfidence="43">m</charParams>
+<charParams l="400" t="2297" r="418" b="2327" charConfidence="55">,</charParams>
+<charParams l="419" t="2252" r="440" b="2327"> </charParams>
+<charParams l="441" t="2252" r="458" b="2312" charConfidence="62">i</charParams>
+<charParams l="464" t="2275" r="502" b="2316" charConfidence="20">n</charParams>
+<charParams l="503" t="2273" r="526" b="2316"> </charParams>
+<charParams l="527" t="2273" r="560" b="2313" charConfidence="90">c</charParams>
+<charParams l="565" t="2273" r="603" b="2313" charConfidence="63">o</charParams>
+<charParams l="609" t="2273" r="645" b="2313" charConfidence="24">n</charParams>
+<charParams l="652" t="2276" r="693" b="2345" charConfidence="100">g</charParams>
+<charParams l="696" t="2277" r="723" b="2317" charConfidence="62">r</charParams>
+<charParams l="726" t="2276" r="759" b="2317" charConfidence="61">e</charParams>
+<charParams l="766" t="2250" r="822" b="2318" suspicious="1" charConfidence="29">f</charParams>
+<charParams l="766" t="2250" r="822" b="2318" suspicious="1" charConfidence="29">f</charParams>
+<charParams l="766" t="2250" r="822" b="2318" suspicious="1" charConfidence="29">i</charParams>
+<charParams l="829" t="2251" r="867" b="2318" charConfidence="80">b</charParams>
+<charParams l="871" t="2277" r="909" b="2316" charConfidence="100">u</charParams>
+<charParams l="912" t="2276" r="936" b="2317" charConfidence="100">s</charParams>
+<charParams l="937" t="2256" r="956" b="2340"> </charParams>
+<charParams l="957" t="2256" r="978" b="2340" charConfidence="99">j</charParams>
+<charParams l="985" t="2276" r="1023" b="2316" charConfidence="100">u</charParams>
+<charParams l="1027" t="2276" r="1060" b="2317" charConfidence="60">c</charParams>
+<charParams l="1067" t="2276" r="1102" b="2316" charConfidence="100">u</charParams>
+<charParams l="1106" t="2274" r="1144" b="2315" charConfidence="31">n</charParams>
+<charParams l="1149" t="2251" r="1186" b="2315" charConfidence="100">d</charParams>
+<charParams l="1192" t="2275" r="1231" b="2315" charConfidence="100">u</charParams>
+<charParams l="1234" t="2275" r="1258" b="2316" suspicious="1" charConfidence="100">s</charParams>
+<charParams l="1285" t="2302" r="1303" b="2332" charConfidence="58">,</charParams>
+<charParams l="1304" t="2255" r="1328" b="2332"> </charParams>
+<charParams l="1329" t="2255" r="1346" b="2315" charConfidence="100">i</charParams>
+<charParams l="1353" t="2275" r="1392" b="2316" charConfidence="55">n</charParams>
+<charParams l="1393" t="2256" r="1414" b="2316"> </charParams>
+<charParams l="1415" t="2256" r="1471" b="2316" charConfidence="100">A</charParams>
+<charParams l="1476" t="2273" r="1536" b="2314" charConfidence="100">m</charParams>
+<charParams l="1540" t="2252" r="1557" b="2312" charConfidence="84">i</charParams>
+<charParams l="1562" t="2272" r="1594" b="2314" charConfidence="59">c</charParams>
+<charParams l="1598" t="2253" r="1615" b="2313" charConfidence="75">i</charParams>
+<charParams l="1621" t="2267" r="1644" b="2314" charConfidence="69">t</charParams>
+<charParams l="1648" t="2252" r="1663" b="2315" charConfidence="82">i</charParams>
+<charParams l="1669" t="2252" r="1684" b="2315" charConfidence="100">i</charParams>
+<charParams l="1689" t="2274" r="1712" b="2315" charConfidence="100">s</charParams>
+<charParams l="1713" t="2248" r="1731" b="2315"> </charParams>
+<charParams l="1732" t="2248" r="1772" b="2314" suspicious="1" charConfidence="100">f</charParams>
+<charParams l="1732" t="2248" r="1772" b="2314" suspicious="1" charConfidence="100">i</charParams>
+<charParams l="1778" t="2273" r="1803" b="2313" charConfidence="42">r</charParams>
+<charParams l="1805" t="2272" r="1868" b="2313" suspicious="1" charConfidence="100">m</charParams>
+<charParams l="1873" t="2274" r="1909" b="2314" charConfidence="45">u</charParams>
+<charParams l="1913" t="2273" r="1937" b="2313" charConfidence="56">s</charParams>
+<charParams l="1943" t="2295" r="1961" b="2313" charConfidence="55">.</charParams></formatting></line>
+<line baseline="2406" l="251" t="2340" r="1963" b="2434"><formatting lang="EnglishUnitedStates">
+<charParams l="251" t="2341" r="313" b="2401" charConfidence="51">H</charParams>
+<charParams l="319" t="2360" r="356" b="2400" charConfidence="87">o</charParams>
+<charParams l="362" t="2359" r="400" b="2399" charConfidence="61">n</charParams>
+<charParams l="405" t="2360" r="442" b="2400" charConfidence="77">o</charParams>
+<charParams l="449" t="2364" r="474" b="2403" charConfidence="43">r</charParams>
+<charParams l="479" t="2343" r="495" b="2403" charConfidence="86">i</charParams>
+<charParams l="500" t="2363" r="524" b="2404" charConfidence="100">s</charParams>
+<charParams l="525" t="2343" r="544" b="2404"> </charParams>
+<charParams l="545" t="2343" r="561" b="2402" charConfidence="75">i</charParams>
+<charParams l="566" t="2363" r="606" b="2430" charConfidence="100">g</charParams>
+<charParams l="612" t="2344" r="626" b="2403" charConfidence="100">i</charParams>
+<charParams l="634" t="2363" r="656" b="2407" charConfidence="45">t</charParams>
+<charParams l="661" t="2368" r="696" b="2407" charConfidence="50">u</charParams>
+<charParams l="702" t="2367" r="728" b="2407" charConfidence="30">r</charParams>
+<charParams l="729" t="2350" r="752" b="2407"> </charParams>
+<charParams l="753" t="2350" r="812" b="2407" charConfidence="100">&amp;</charParams>
+<charParams l="813" t="2350" r="832" b="2434"> </charParams>
+<charParams l="833" t="2366" r="874" b="2434" charConfidence="100">g</charParams>
+<charParams l="879" t="2366" r="903" b="2406" charConfidence="40">r</charParams>
+<charParams l="908" t="2365" r="940" b="2407" charConfidence="100">a</charParams>
+<charParams l="945" t="2362" r="968" b="2407" charConfidence="100">t</charParams>
+<charParams l="973" t="2347" r="987" b="2406" charConfidence="85">i</charParams>
+<charParams l="995" t="2364" r="1017" b="2406" charConfidence="40">t</charParams>
+<charParams l="1022" t="2367" r="1059" b="2406" charConfidence="100">u</charParams>
+<charParams l="1066" t="2341" r="1103" b="2406" charConfidence="100">d</charParams>
+<charParams l="1107" t="2347" r="1124" b="2406" charConfidence="66">i</charParams>
+<charParams l="1131" t="2365" r="1167" b="2405" charConfidence="45">n</charParams>
+<charParams l="1172" t="2345" r="1188" b="2406" charConfidence="46">i</charParams>
+<charParams l="1192" t="2367" r="1216" b="2408" charConfidence="100">s</charParams>
+<charParams l="1217" t="2366" r="1237" b="2408"> </charParams>
+<charParams l="1238" t="2366" r="1272" b="2407" charConfidence="100">c</charParams>
+<charParams l="1276" t="2364" r="1309" b="2407" charConfidence="2">a</charParams>
+<charParams l="1311" t="2365" r="1348" b="2406" charConfidence="61">u</charParams>
+<charParams l="1353" t="2341" r="1389" b="2406" charConfidence="32">f</charParams>
+<charParams l="1376" t="2365" r="1410" b="2408" charConfidence="100">a</charParams>
+<charParams l="1411" t="2364" r="1450" b="2408"> </charParams>
+<charParams l="1451" t="2364" r="1484" b="2404" charConfidence="96">e</charParams>
+<charParams l="1489" t="2366" r="1514" b="2404" charConfidence="62">r</charParams>
+<charParams l="1519" t="2363" r="1560" b="2430" charConfidence="100">g</charParams>
+<charParams l="1564" t="2362" r="1598" b="2405" charConfidence="27">a</charParams>
+<charParams l="1599" t="2344" r="1635" b="2405"> </charParams>
+<charParams l="1636" t="2344" r="1655" b="2403" charConfidence="79">i</charParams>
+<charParams l="1660" t="2340" r="1678" b="2404" charConfidence="57">l</charParams>
+<charParams l="1683" t="2340" r="1698" b="2402" charConfidence="100">i</charParams>
+<charParams l="1702" t="2364" r="1739" b="2403" charConfidence="60">u</charParams>
+<charParams l="1747" t="2363" r="1806" b="2402" charConfidence="100">m</charParams>
+<charParams l="1807" t="2363" r="1831" b="2420"> </charParams>
+<charParams l="1832" t="2388" r="1852" b="2420" charConfidence="66">,</charParams>
+<charParams l="1853" t="2346" r="1899" b="2420"> </charParams>
+<charParams l="1900" t="2346" r="1935" b="2401" charConfidence="38">8</charParams>
+<charParams l="1932" t="2360" r="1963" b="2401" charConfidence="34">c</charParams></formatting></line>
+<line baseline="2494" l="253" t="2427" r="1961" b="2524"><formatting lang="EnglishUnitedStates">
+<charParams l="253" t="2427" r="292" b="2491" charConfidence="100">d</charParams>
+<charParams l="300" t="2450" r="329" b="2490" charConfidence="72">e</charParams>
+<charParams l="335" t="2455" r="372" b="2494" charConfidence="78">v</charParams>
+<charParams l="377" t="2453" r="413" b="2492" charConfidence="82">o</charParams>
+<charParams l="421" t="2450" r="443" b="2492" charConfidence="55">t</charParams>
+<charParams l="449" t="2432" r="464" b="2491" charConfidence="42">i</charParams>
+<charParams l="468" t="2452" r="506" b="2492" charConfidence="100">o</charParams>
+<charParams l="512" t="2452" r="548" b="2492" charConfidence="43">n</charParams>
+<charParams l="554" t="2434" r="570" b="2494" charConfidence="93">i</charParams>
+<charParams l="576" t="2454" r="599" b="2494" charConfidence="100">s</charParams>
+<charParams l="600" t="2454" r="622" b="2497"> </charParams>
+<charParams l="623" t="2458" r="655" b="2497" charConfidence="60">e</charParams>
+<charParams l="660" t="2459" r="686" b="2497" charConfidence="67">r</charParams>
+<charParams l="691" t="2457" r="731" b="2523" charConfidence="41">g</charParams>
+<charParams l="733" t="2456" r="766" b="2498" charConfidence="100">a</charParams>
+<charParams l="767" t="2452" r="789" b="2498"> </charParams>
+<charParams l="790" t="2452" r="812" b="2497" charConfidence="100">t</charParams>
+<charParams l="817" t="2457" r="851" b="2497" charConfidence="49">e</charParams>
+<charParams l="856" t="2438" r="869" b="2496" charConfidence="81">i</charParams>
+<charParams l="877" t="2458" r="913" b="2524" charConfidence="100">p</charParams>
+<charParams l="917" t="2432" r="937" b="2496" charConfidence="25">l</charParams>
+<charParams l="940" t="2458" r="978" b="2496" charConfidence="100">u</charParams>
+<charParams l="981" t="2457" r="1044" b="2496" suspicious="1" charConfidence="100">m</charParams>
+<charParams l="1060" t="2480" r="1076" b="2510" suspicious="1" charConfidence="55">,</charParams>
+<charParams l="1077" t="2434" r="1095" b="2510"> </charParams>
+<charParams l="1096" t="2434" r="1161" b="2497" suspicious="1" charConfidence="59">T</charParams>
+<charParams l="1169" t="2458" r="1193" b="2497" suspicious="1" charConfidence="48">r</charParams>
+<charParams l="1195" t="2456" r="1230" b="2498" charConfidence="0">a</charParams>
+<charParams l="1234" t="2437" r="1294" b="2496" suspicious="1" charConfidence="28">&amp;</charParams>
+<charParams l="1300" t="2454" r="1331" b="2496" charConfidence="100">a</charParams>
+<charParams l="1336" t="2451" r="1359" b="2496" charConfidence="36">t</charParams>
+<charParams l="1365" t="2456" r="1401" b="2495" charConfidence="100">u</charParams>
+<charParams l="1406" t="2454" r="1467" b="2494" charConfidence="100">m</charParams>
+<charParams l="1468" t="2428" r="1488" b="2495"> </charParams>
+<charParams l="1489" t="2428" r="1531" b="2495" charConfidence="36">h</charParams>
+<charParams l="1536" t="2454" r="1573" b="2493" charConfidence="100">u</charParams>
+<charParams l="1580" t="2452" r="1615" b="2492" charConfidence="40">n</charParams>
+<charParams l="1622" t="2453" r="1655" b="2493" charConfidence="100">c</charParams>
+<charParams l="1656" t="2431" r="1677" b="2493"> </charParams>
+<charParams l="1678" t="2431" r="1716" b="2492" charConfidence="100">d</charParams>
+<charParams l="1722" t="2453" r="1754" b="2492" charConfidence="63">e</charParams>
+<charParams l="1755" t="2432" r="1776" b="2492"> </charParams>
+<charParams l="1777" t="2432" r="1823" b="2492" charConfidence="100">P</charParams>
+<charParams l="1828" t="2453" r="1866" b="2492" charConfidence="67">o</charParams>
+<charParams l="1873" t="2447" r="1894" b="2491" charConfidence="74">t</charParams>
+<charParams l="1899" t="2453" r="1932" b="2493" charConfidence="33">e</charParams>
+<charParams l="1933" t="2469" r="1961" b="2481" charConfidence="55">-</charParams></formatting></line>
+<line baseline="2584" l="253" t="2517" r="1957" b="2605"><formatting lang="EnglishUnitedStates">
+<charParams l="253" t="2521" r="302" b="2587" suspicious="1" charConfidence="54">f</charParams>
+<charParams l="253" t="2521" r="302" b="2587" suspicious="1" charConfidence="54">t</charParams>
+<charParams l="308" t="2543" r="339" b="2585" suspicious="1" charConfidence="0">a</charParams>
+<charParams l="344" t="2541" r="366" b="2585" suspicious="1" charConfidence="63">t</charParams>
+<charParams l="372" t="2543" r="403" b="2583" suspicious="1" charConfidence="100">e</charParams>
+<charParams l="404" t="2523" r="423" b="2583"> </charParams>
+<charParams l="424" t="2523" r="477" b="2583" charConfidence="59">C</charParams>
+<charParams l="484" t="2523" r="502" b="2582" charConfidence="99">i</charParams>
+<charParams l="507" t="2544" r="541" b="2583" charConfidence="100">v</charParams>
+<charParams l="545" t="2524" r="560" b="2582" charConfidence="90">i</charParams>
+<charParams l="565" t="2521" r="586" b="2584" charConfidence="78">l</charParams>
+<charParams l="589" t="2524" r="604" b="2582" charConfidence="100">i</charParams>
+<charParams l="615" t="2575" r="634" b="2604" charConfidence="54">,</charParams>
+<charParams l="635" t="2530" r="663" b="2604"> </charParams>
+<charParams l="664" t="2530" r="722" b="2586" charConfidence="93">&amp;</charParams>
+<charParams l="723" t="2527" r="740" b="2588"> </charParams>
+<charParams l="741" t="2527" r="786" b="2588" charConfidence="100">E</charParams>
+<charParams l="791" t="2550" r="824" b="2590" charConfidence="84">c</charParams>
+<charParams l="830" t="2549" r="862" b="2591" charConfidence="100">c</charParams>
+<charParams l="867" t="2525" r="886" b="2588" charConfidence="100">l</charParams>
+<charParams l="891" t="2547" r="923" b="2588" charConfidence="59">e</charParams>
+<charParams l="927" t="2521" r="968" b="2588" suspicious="1" charConfidence="85">f</charParams>
+<charParams l="927" t="2521" r="968" b="2588" suspicious="1" charConfidence="85">i</charParams>
+<charParams l="974" t="2547" r="1005" b="2589" charConfidence="100">a</charParams>
+<charParams l="1009" t="2522" r="1058" b="2590" suspicious="1" charConfidence="96">f</charParams>
+<charParams l="1009" t="2522" r="1058" b="2590" suspicious="1" charConfidence="96">t</charParams>
+<charParams l="1062" t="2528" r="1077" b="2587" charConfidence="41">i</charParams>
+<charParams l="1082" t="2548" r="1115" b="2589" charConfidence="62">c</charParams>
+<charParams l="1121" t="2545" r="1154" b="2588" suspicious="1" charConfidence="5">a</charParams>
+<charParams l="1171" t="2576" r="1192" b="2605" charConfidence="55">,</charParams>
+<charParams l="1193" t="2523" r="1228" b="2605"> </charParams>
+<charParams l="1229" t="2523" r="1273" b="2587" charConfidence="44">h</charParams>
+<charParams l="1278" t="2546" r="1315" b="2586" charConfidence="100">u</charParams>
+<charParams l="1319" t="2547" r="1381" b="2589" charConfidence="100">m</charParams>
+<charParams l="1387" t="2526" r="1403" b="2585" charConfidence="100">i</charParams>
+<charParams l="1408" t="2521" r="1427" b="2587" charConfidence="36">l</charParams>
+<charParams l="1427" t="2525" r="1445" b="2585" suspicious="1" charConfidence="82">i</charParams>
+<charParams l="1451" t="2539" r="1473" b="2585" suspicious="1" charConfidence="45">t</charParams>
+<charParams l="1478" t="2544" r="1510" b="2584" charConfidence="80">e</charParams>
+<charParams l="1515" t="2544" r="1541" b="2584" charConfidence="100">r</charParams>
+<charParams l="1542" t="2539" r="1563" b="2584"> </charParams>
+<charParams l="1564" t="2539" r="1588" b="2584" charConfidence="33">t</charParams>
+<charParams l="1592" t="2524" r="1608" b="2585" charConfidence="100">i</charParams>
+<charParams l="1615" t="2520" r="1654" b="2585" charConfidence="54">b</charParams>
+<charParams l="1658" t="2523" r="1675" b="2583" charConfidence="72">i</charParams>
+<charParams l="1676" t="2523" r="1697" b="2583"> </charParams>
+<charParams l="1698" t="2523" r="1759" b="2582" suspicious="1" charConfidence="100">O</charParams>
+<charParams l="1763" t="2522" r="1783" b="2583" suspicious="1" charConfidence="19">f</charParams>
+<charParams l="1783" t="2517" r="1816" b="2581" suspicious="1" charConfidence="31">f</charParams>
+<charParams l="1810" t="2542" r="1841" b="2581" suspicious="1" charConfidence="64">e</charParams>
+<charParams l="1845" t="2542" r="1873" b="2581" charConfidence="49">r</charParams>
+<charParams l="1876" t="2540" r="1915" b="2579" suspicious="1" charConfidence="100">o</charParams>
+<charParams l="1937" t="2566" r="1957" b="2596" charConfidence="59">,</charParams></formatting></line>
+<line baseline="2676" l="253" t="2611" r="1960" b="2710"><formatting lang="EnglishUnitedStates">
+<charParams l="253" t="2617" r="311" b="2679" charConfidence="87">D</charParams>
+<charParams l="321" t="2636" r="352" b="2677" charConfidence="66">e</charParams>
+<charParams l="357" t="2613" r="396" b="2678" charConfidence="100">d</charParams>
+<charParams l="400" t="2616" r="419" b="2679" charConfidence="73">i</charParams>
+<charParams l="424" t="2631" r="455" b="2675" charConfidence="64">c</charParams>
+<charParams l="459" t="2631" r="498" b="2673" charConfidence="44">o</charParams>
+<charParams l="503" t="2633" r="542" b="2699" charConfidence="100">q</charParams>
+<charParams l="549" t="2634" r="585" b="2675" charConfidence="100">u</charParams>
+<charParams l="589" t="2636" r="622" b="2676" charConfidence="41">e</charParams>
+<charParams l="629" t="2664" r="641" b="2681" charConfidence="88">.</charParams>
+<charParams l="642" t="2617" r="685" b="2681"> </charParams>
+<charParams l="686" t="2617" r="742" b="2679" charConfidence="100">D</charParams>
+<charParams l="751" t="2638" r="783" b="2680" charConfidence="78">e</charParams>
+<charParams l="784" t="2620" r="800" b="2681"> </charParams>
+<charParams l="801" t="2620" r="820" b="2681" charConfidence="100">i</charParams>
+<charParams l="822" t="2615" r="838" b="2682" suspicious="1" charConfidence="100">l</charParams>
+<charParams l="841" t="2614" r="857" b="2678" suspicious="1" charConfidence="100">l</charParams>
+<charParams l="862" t="2619" r="879" b="2681" charConfidence="100">i</charParams>
+<charParams l="883" t="2638" r="906" b="2679" charConfidence="100">s</charParams>
+<charParams l="911" t="2664" r="930" b="2700" suspicious="1" charConfidence="55">,</charParams>
+<charParams l="931" t="2637" r="951" b="2710"> </charParams>
+<charParams l="952" t="2637" r="995" b="2710" charConfidence="0">q</charParams>
+<charParams l="998" t="2639" r="1033" b="2678" charConfidence="63">u</charParams>
+<charParams l="1036" t="2618" r="1054" b="2679" charConfidence="81">i</charParams>
+<charParams l="1055" t="2618" r="1076" b="2680"> </charParams>
+<charParams l="1077" t="2619" r="1133" b="2680" charConfidence="100">D</charParams>
+<charParams l="1141" t="2637" r="1179" b="2677" charConfidence="67">o</charParams>
+<charParams l="1187" t="2618" r="1249" b="2681" suspicious="1" charConfidence="25">&amp;</charParams>
+<charParams l="1254" t="2639" r="1279" b="2680" charConfidence="37">r</charParams>
+<charParams l="1282" t="2617" r="1298" b="2679" charConfidence="43">i</charParams>
+<charParams l="1304" t="2636" r="1341" b="2678" charConfidence="45">n</charParams>
+<charParams l="1348" t="2637" r="1373" b="2680" charConfidence="25">a</charParams>
+<charParams l="1373" t="2639" r="1395" b="2680" suspicious="1" charConfidence="15">e</charParams>
+<charParams l="1400" t="2663" r="1419" b="2699" suspicious="1" charConfidence="25">,</charParams>
+<charParams l="1420" t="2635" r="1445" b="2705"> </charParams>
+<charParams l="1446" t="2635" r="1486" b="2705" charConfidence="0">q</charParams>
+<charParams l="1492" t="2635" r="1527" b="2677" charConfidence="34">u</charParams>
+<charParams l="1534" t="2634" r="1567" b="2679" charConfidence="100">a</charParams>
+<charParams l="1571" t="2634" r="1633" b="2677" charConfidence="100">m</charParams>
+<charParams l="1634" t="2632" r="1657" b="2677"> </charParams>
+<charParams l="1658" t="2632" r="1690" b="2673" charConfidence="100">c</charParams>
+<charParams l="1696" t="2631" r="1733" b="2671" charConfidence="94">o</charParams>
+<charParams l="1739" t="2632" r="1780" b="2673" charConfidence="49">n</charParams>
+<charParams l="1785" t="2628" r="1806" b="2671" charConfidence="80">t</charParams>
+<charParams l="1810" t="2611" r="1826" b="2670" charConfidence="100">i</charParams>
+<charParams l="1830" t="2631" r="1869" b="2671" charConfidence="30">n</charParams>
+<charParams l="1876" t="2629" r="1907" b="2669" charConfidence="100">e</charParams>
+<charParams l="1912" t="2624" r="1937" b="2669" charConfidence="55">t</charParams>
+<charParams l="1938" t="2658" r="1960" b="2688" suspicious="1" charConfidence="55">,</charParams></formatting></line>
+<line baseline="2768" l="1066" t="2694" r="1960" b="2772"><formatting lang="EnglishUnitedStates">
+<charParams l="1066" t="2727" r="1099" b="2771" charConfidence="0">a</charParams>
+<charParams l="1100" t="2726" r="1118" b="2771"> </charParams>
+<charParams l="1119" t="2726" r="1153" b="2770" charConfidence="0">a</charParams>
+<charParams l="1154" t="2726" r="1175" b="2772"> </charParams>
+<charParams l="1176" t="2728" r="1210" b="2772" charConfidence="30">a</charParams>
+<charParams l="1211" t="2728" r="1272" b="2772"> </charParams>
+<charParams l="1273" t="2728" r="1308" b="2771" charConfidence="20">z</charParams>
+<charParams l="1309" t="2694" r="1752" b="2771">    </charParams>
+<charParams l="1753" t="2694" r="1789" b="2761" charConfidence="38">f</charParams>
+<charParams l="1782" t="2720" r="1814" b="2764" charConfidence="0">a</charParams>
+<charParams l="1817" t="2721" r="1852" b="2763" charConfidence="39">v</charParams>
+<charParams l="1859" t="2719" r="1890" b="2761" charConfidence="34">e</charParams>
+<charParams l="1895" t="2719" r="1922" b="2761" suspicious="1" charConfidence="62">r</charParams>
+<charParams l="1926" t="2721" r="1960" b="2762" charConfidence="34">e</charParams></formatting></line></par>
+</text>
+</block>
+</page>
+</document>

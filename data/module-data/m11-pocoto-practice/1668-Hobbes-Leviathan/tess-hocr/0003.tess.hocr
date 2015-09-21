@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head>
+  <title>
+</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name='ocr-system' content='tesseract 3.03' />
+  <meta name='ocr-capabilities' content='ocr_page ocr_carea ocr_par ocr_line ocrx_word'/>
+</head>
+<body>
+  <div class='ocr_page' id='page_1' title='image "tif/0003.tif"; bbox 0 0 2208 2960; ppageno 0'>
+   <div class='ocr_carea' id='block_1_1' title="bbox 1000 127 1173 154">
+    <p class='ocr_par' dir='ltr' id='par_1_1' title="bbox 1000 127 1173 154">
+     <span class='ocr_line' id='line_1_1' title="bbox 1000 127 1173 154; baseline 0.006 -1"><span class='ocrx_word' id='word_1_1' title='bbox 1000 127 1173 154; x_wconf 80' lang='eng'>1937</span> 
+     </span>
+    </p>
+   </div>
+   <div class='ocr_carea' id='block_1_2' title="bbox 737 312 1433 494">
+    <p class='ocr_par' dir='ltr' id='par_1_2' title="bbox 737 312 1433 494">
+     <span class='ocr_line' id='line_1_2' title="bbox 739 312 1433 367; baseline 0 -1"><span class='ocrx_word' id='word_1_2' title='bbox 739 314 833 366; x_wconf 91' lang='eng' dir='ltr'>EX</span> <span class='ocrx_word' id='word_1_3' title='bbox 882 312 1433 367; x_wconf 88' lang='eng' dir='ltr'>BIBLIOTHECA</span> 
+     </span>
+     <span class='ocr_line' id='line_1_3' title="bbox 737 432 1432 494; baseline 0.001 -11"><span class='ocrx_word' id='word_1_4' title='bbox 737 433 776 494; x_wconf 81' lang='eng' dir='ltr'>J.</span> <span class='ocrx_word' id='word_1_5' title='bbox 820 432 885 483; x_wconf 90' lang='eng' dir='ltr'><strong>H.</strong></span> <span class='ocrx_word' id='word_1_6' title='bbox 926 432 1432 484; x_wconf 88' lang='eng' dir='ltr'>ANDERHUB</span> 
+     </span>
+    </p>
+   </div>
+  </div>
+ </body>
+</html>
