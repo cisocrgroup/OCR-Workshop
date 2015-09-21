@@ -1,2 +1,2 @@
 # ocrworkshop
-# Tools and data for the OCR workshop at LMU 
+Tools and data for the OCR workshop at LMU 
