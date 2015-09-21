@@ -13,7 +13,7 @@ all: $(PDFS)
 	-V classoption:DIV=12 \
     -V mainfont:"Linux Libertine O" \
     -V sansfont:"Linux Biolinum O" \
-    --bibliography=../presentations/include/ocropus.bib \
+    --bibliography=../slides/include/ocropus.bib \
     -t latex \
     -o $@ $<
 
