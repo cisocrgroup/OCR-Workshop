@@ -1,0 +1,46 @@
+\newcommand{\colA}[1]{\begin{columns}[t]\begin{column}{#1}}
+\newcommand{\colB}[1]{\end{column}\begin{column}{#1}}
+\newcommand{\colEnd}{\end{column}\end{columns}}
+
+\usetheme{CambridgeUS}
+\usecolortheme{dolphin}
+%\setbeamercovered{transparent}
+%\useoutertheme{infolines}
+
+\institute[]{Centrum für Informations- und Sprachverarbeitung (CIS)\\
+            Ludwig-Maximilians-Universität München (LMU)\\
+            \vspace{1cm}
+            \href{https://creativecommons.org/licenses/by-nc-sa/4.0/}%
+            {\includegraphics[width=0.2\textwidth]{images/by-nc-sa.eps}}}
+
+% keine Navigationspfeile
+\setbeamertemplate{navigation symbols}{} % keine Navigations-Buttons
+
+% Standardschrift verändern für Griechisch
+\setsansfont[Mapping=tex-text]{Junicode}
+\setmonofont[Mapping=tex-text]{DejaVu Sans Mono}
+%\setsansfont[Mapping=tex-text]{Linux Libertine O}
+%\setsansfont[Scale=MatchLowercase]{Linux Biolinum O}
+
+% Fußzeile mit Titel und Seitenr.
+\definecolor{mygray}{gray}{0.25}
+%\setbeamertemplate{footline}[frame number]
+\setbeamertemplate{footline}{\color{mygray}\hspace*{2mm}\insertauthor\hfill \insertshorttitle\hfill\insertdate\hspace*{10pt}\insertframenumber\ / \inserttotalframenumber\hspace*{2ex}}
+
+% Schrift für URLs
+\definecolor{myblue}{rgb}{0.2 0.0 0.8}
+
+\usepackage{hyperref}
+\renewcommand{\UrlFont}{\color{myblue}\footnotesize\sf}
+\hypersetup{colorlinks,allcolors=.,urlcolor=blue}
+
+% Bibliography
+%\usepackage[backend=biber,style=authoryear,maxcitenames=2,maxbibnames=9]{biblatex}
+
+% Schriftgröße Listings
+\RequirePackage{fancyvrb}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}%
+  {commandchars=\\\{\},fontsize=\footnotesize}
+\DefineVerbatimEnvironment{Verbatim}{Verbatim}%
+  {fontsize=\footnotesize}
+\newcommand{\pocoto}{\texttt{PoCoTo}}
