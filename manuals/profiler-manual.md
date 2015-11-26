@@ -803,8 +803,14 @@ and copy the compiled archive into the axis2 directory of the Tomcat
 server.
 
 ### Downloading the source code
-The source code of the profiler web service is distributed as a zip file.
-You can simply download the [sources][profiler].
+The source code of the profiler web service is maintained in a
+[git repository][pws]. Clone the source code of the project using git:
+
+~~~{.bash}
+$ git clone https://gitlab.cis.lmu.de/CLARIN/pws.git
+~~~
+
+[pws] https://gitlab.cis.lmu.de/CLARIN/pws.git
 
 ### Downloading the Axis2 libraries
 To compile the profiler web service you need the binary distribution
