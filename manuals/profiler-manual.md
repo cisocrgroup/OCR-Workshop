@@ -90,6 +90,7 @@ tools[^1] installed on your machine. Make sure that all of the
 required tools are installed on your system before you proceed.
 
 * [CMake](http://www.cmake.org/)
+* [Git](http://git-scm.com/)
 * [The Gnu C++ Compiler](https://gcc.gnu.org/)
 * [Make](https://www.gnu.org/software/make/)
 * [Git](http://www.git-scm.com/)
@@ -115,10 +116,15 @@ make sure that you have installed all required additional tools and
 libraries.
 
 ### Downloading the sources
-The source code of the profiler is available [here][profiler]. 
+The source code of the profiler is maintained using a
+[git repository][profiler]. Just use git to clone the source code:
+
+~~~{.bash}
+$ git clone https://gitlab.cis.lmu.de/CLARIN/ocrcxx.git
+~~~
 Download and unpack the sources.
 
-[profiler]: http://www.cis.lmu.de/ocrworkshop/data/profiler
+[profiler]: https://gitlab.cis.lmu.de/CLARIN/ocrcxx.git
 
 ### Building the profiler
 In order to compile and install the profiler you need to know the path
