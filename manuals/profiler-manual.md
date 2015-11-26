@@ -810,7 +810,7 @@ The source code of the profiler web service is maintained in a
 $ git clone https://gitlab.cis.lmu.de/CLARIN/pws.git
 ~~~
 
-[pws] https://gitlab.cis.lmu.de/CLARIN/pws.git
+[pws]: https://gitlab.cis.lmu.de/CLARIN/pws.git
 
 ### Downloading the Axis2 libraries
 To compile the profiler web service you need the binary distribution
