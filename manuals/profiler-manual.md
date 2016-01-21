@@ -120,11 +120,11 @@ The source code of the profiler is maintained using a
 [git repository][profiler]. Just use git to clone the source code:
 
 ~~~{.bash}
-$ git clone https://gitlab.cis.lmu.de/CLARIN/ocrcxx.git
+$ git clone https://github.com:cisocrgroup/profiler.git
 ~~~
 Download and unpack the sources.
 
-[profiler]: https://gitlab.cis.lmu.de/CLARIN/ocrcxx.git
+[profiler]: https://github.com:cisocrgroup/profiler.git
 
 ### Building the profiler
 In order to compile and install the profiler you need to know the path
@@ -807,7 +807,7 @@ The source code of the profiler web service is maintained in a
 [git repository][pws]. Clone the source code of the project using git:
 
 ~~~{.bash}
-$ git clone https://gitlab.cis.lmu.de/CLARIN/pws.git
+$ git clone https://github.com:cisocrgroup/ProfilerWebService.git
 ~~~
 
 [pws]: https://gitlab.cis.lmu.de/CLARIN/pws.git
