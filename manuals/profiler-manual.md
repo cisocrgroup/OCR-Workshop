@@ -756,20 +756,20 @@ Consider the following layout of a language backend:
 /path/to/language/backend
     |-German.ini
     |-German
-    |-----pattern.txt
+    |-----patterns.txt
     |-----dictionary.fbdic
     |-----initialWeights.txt
     |-----frequencyList.binfreq
     |-----Geo.fbdic
     |-Latin.ini
     |-Latin
-    |-----pattern.txt
+    |-----patterns.txt
     |-----dictionary.fbdic
     |-----initialWeights.txt
     |-----frequencyList.binfreq
     |-Greek.ini.disabled
     |-Greek
-    |-----pattern.txt
+    |-----patterns.txt
     |-----dictionary.fbdic
     |-----initialWeights.txt
     |-----frequencyList.binfreq
