@@ -226,6 +226,18 @@ $ file -i myfile
 $ iconv -t UTF-8 < myfile > myutf8file
 ~~~
 
+Make sure that all your input data has the same encoding and that the
+files are in the same
+[unicode normalization form](http://www.unicode.org/faq/normalization.html)
+(either composed or decomposed). You can use the `uconv` tool of the
+`icu` package to convert between different encodings and / or
+normalization forms.
+
+~~~{.bash}
+$ uconv -f utf8 -t utf8 -x [nfc|nfd] -o output.txt input.txt
+~~~
+
+
 #### Dictionary
 The dictionary is a simple text file that contains each word on a
 separate line. It cannot contain any duplicate entries and must not be
