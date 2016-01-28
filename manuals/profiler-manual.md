@@ -253,6 +253,14 @@ while you are using any of the profiling tools, the dictionary file
 you use is not proper sorted and you have to use the given command to
 sort the dictionary accordingly.
 
+On the other hand, if you should get an error saying `error: empty
+key` your dictionary contains at least one empty line. You can remove
+the empty lines from the dictionary using `sed`:
+
+~~~{.bash}
+sed -e '/^[[:space:]]*$/d' input.txt > output.txt
+~~~
+
 #### Pattern file
 The pattern file contains pattern rules that describe how to transform
 historical spellings to modern spellings. Each line of the file should
