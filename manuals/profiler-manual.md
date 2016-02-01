@@ -631,6 +631,15 @@ directory  contains language resources for one language. Use these
 files to  compile your own language profiles and experiment with the
 profiler.
 
+## Missing patterns file
+You can use the profiler even if you do not have any patterns
+file. In order to use the profiler without historical patterns, you
+can specify the `--allModern` command line option for the
+`trainFrequencyList` tool. For the profiler itself there is currently
+no such command line switch. To use the profiler without any
+historical patterns you have to provide a patterns file that must at
+least contain one (fake) pattern.
+
 \newpage
 
 # Profiler Web Service
