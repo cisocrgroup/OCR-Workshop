@@ -261,6 +261,41 @@ the empty lines from the dictionary using `sed`:
 sed -e '/^[[:space:]]*$/d' input.txt > output.txt
 ~~~
 
+#### Simple creation of a modern dictionary with hunspell
+If you do not have any language resources available, you can use the
+spelling dictionaries of
+[OpenOffice](http://extensions.openoffice.org/) to create your own for
+usage with the profiler. You need to install
+[hunspell](https://de.wikipedia.org/wiki/Hunspell) in order to convert
+the dictionaries into the right format for the profiler.
+
+Download a *spelling* dictionary of your desired language. The
+downloaded Open Office extension is a zip archive, that you need to
+unzip before you proceed. You need two files from the archive. First
+the `.dic` dictionary file and the `.aff` file, that contains the
+different affixes of language. Make sure to convert the `.dic` and
+`.aff` files to utf8 if they are in a different encoding (iso-8859-1
+most likely).
+
+~~~{.bash}
+iconv -f ISO_8859-1 -t UTF-8 de_DE.aff > de_DE.utf8.aff
+iconv -f ISO_8859-1 -t UTF-8 de_DE.dic > de_DE.utf8.dic
+~~~
+
+Now you can use the `unmunch` utility program to generate the full
+forms from the affix and the dictionary files. The `unmunch` command
+generates composita components for some languages. You need to remove
+these from your dictionary, since the profiler cannot handle these
+entries.
+
+~~~{.bash}
+unmunch ./de_DE.dic ./de_DE.aff | grep -E -v "/|-" > mydictionary.dic
+~~~
+
+The `grep -E -v "/|-"` expression filters all composita components
+from the dictionary file. The resulting file can now be processed in
+the same way as described above.
+
 #### Pattern file
 The pattern file contains pattern rules that describe how to transform
 historical spellings to modern spellings. Each line of the file should
