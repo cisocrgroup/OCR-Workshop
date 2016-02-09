@@ -273,9 +273,9 @@ Download a *spelling* dictionary of your desired language. The
 downloaded Open Office extension is a zip archive, that you need to
 unzip before you proceed. You need two files from the archive. First
 the `.dic` dictionary file and the `.aff` file, that contains the
-different affixes of language. Make sure to convert the `.dic` and
-`.aff` files to utf8 if they are in a different encoding (iso-8859-1
-most likely).
+different affixes of the language. For historical reasons, the files
+will be most likely encoded in iso-8859-1. Make sure to convert the
+`.dic` and `.aff` files to utf8 before you proceed.
 
 ~~~{.bash}
 iconv -f ISO_8859-1 -t UTF-8 de_DE.aff > de_DE.utf8.aff
@@ -292,9 +292,10 @@ entries.
 unmunch ./de_DE.dic ./de_DE.aff | grep -E -v "/|-" > mydictionary.dic
 ~~~
 
-The `grep -E -v "/|-"` expression filters all composita components
-from the dictionary file. The resulting file can now be processed in
-the same way as described above.
+The `grep -E -v "/|-"` expression in the above command is used to
+filter out all composita components from the dictionary file. The
+resulting file can now be processed in the same way as described
+above.
 
 #### Pattern file
 The pattern file contains pattern rules that describe how to transform
