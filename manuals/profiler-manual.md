@@ -238,6 +238,13 @@ normalization forms.
 $ uconv -f utf8 -t utf8 -x [nfc|nfd] -o output.txt input.txt
 ~~~
 
+If you decide to use the decomposed normalization form for your input
+files, consider to increase the maximum allowed Levenshtein distance
+in the configuration file. The does not distinguish between real and
+combining characters. For example the profiler would calculate a
+Levenshtein distance of 2 between `quâm` and `quem` if they where
+encoded in the decomposed normalization form.
+
 #### Dictionary
 The dictionary is a simple text file that contains each word on a
 separate line. It cannot contain any duplicate entries and must not be
