@@ -33,15 +33,20 @@ install those requirements on your system if they are not already
 installed.
 
 # Language Profiler
+
 The language profiler is a program that calculates historical spelling
-variants of a (historical) document using a modern dictionary. First
-of all this part of the manual covers the general workings of the
-language profiler. Then the more technical parts -- the compilation
-and installation -- of the tool are explained in more detail. Finally
-the usage of the tool and the generation of specific language profiles
-are covered.
+variants of a (historical) document using a modern dictionary. It is
+therefore able to differentiate between *real* OCR Errors and
+historical spelling variants of words.
+
+First of all this part of the manual covers the general workings of
+the language profiler. Then the more technical parts -- the
+compilation and installation -- of the tool are explained in more
+detail. Finally the usage of the tool and the generation of specific
+language profiles are covered.
 
 ## Overview
+
 In ocred text in general and in ocred historical text in particular
 there appear to be number of words, that do not match a regular entry
 in a dictionary of the text's language. There are different
@@ -50,14 +55,15 @@ the automatic text recognition engine made a mistake on character
 level and the word is a proper dictionary entry; we call these errors
 OCR erros. Another possibility is -- particular in historical texts --
 that the OCR engine did recognize the word with no errors, but the
-historical spelling of the word differs from its modern spelling; we
-call these kind of errors historical spelling variations or errors. It
-is possible as well that both OCR and historical spelling variations
-overlap on the same words.
+historical spelling of the word differs from its modern spelling --
+these kind of errors are called historical spelling variations or
+errors. It is possible as well that both OCR and historical spelling
+variations overlap on the same words.
 
 The profiler tries to find good explanations for any of these
-*unexplained* words in the text. It therefore tries to map
-unrecognized words to dictionary entries with a minimum
+*unexplained* words in the text, using the profile of the actual
+document. It therefore tries to map unrecognized words to dictionary
+entries with a minimum
 [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance).
 In some circumstances there can be a lot of words with similar
 Levenshtein distances to a particular word, so the profiler uses
@@ -73,7 +79,14 @@ Consider the pattern rule `e -> c`. This rule describes a common OCR
 error pattern, where the letter `e` in the source text is recognized
 as a `c` by the engine. For another example for a historical spelling
 pattern consider the rule `t -> th`. It explains historical (German)
-word forms like `theil` that should map to the modern form `teil`.
+word forms like `theil` that should map to the modern form `teil`. So
+if the profiler finds a lot of unexplained words that could be
+explained with a `e -> c` OCR Error pattern, this pattern would get a
+higher priority for calculating correction candidates. On the other
+hand if the profiler would encounter a word `theil` that he could
+explain using historical patterns, he would not recognize this word as
+OCR error and would assume a historical spelling variation of the word
+`teil`.
 
 The profiler uses then modern dictionaries, built in OCR pattern rules
 and external pattern rules to calculate *the best* explanations for
