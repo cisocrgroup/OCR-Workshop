@@ -851,12 +851,16 @@ all selected tokens have been corrected.](img/pocotobatchcorrection4.png)
 \newpage
 
 # Profiler Service
-As mentioned on various occasions in this manual, \pocoto{} can utilize
-a specialized profiler service for your OCRed pages. This service calculates
-language dependent statistical hypotheses for OCR errors and historical spellings based on
-your OCRed document. Using this information, \pocoto{} will present you a list of misspelled words
-together with correction candidates to choose from, as well as an overview of error patterns by which
-wrongly recognized words can be transformed into valid lexical words (see Fig. \ref{fig:errorpattern}).
+
+As mentioned on various occasions in this manual, \pocoto{} can
+utilize a specialized profiler service for your OCRed pages. This
+service calculates language dependent statistical hypotheses for OCR
+errors and historical spellings based on your OCRed document. Using
+this information, \pocoto{} will present you a list of misspelled
+words together with correction candidates to choose from, as well as
+an overview of error patterns by which wrongly recognized words can be
+transformed into valid lexical words (see
+Fig. \ref{fig:errorpattern}).
 
 \begin{figure}
 \centering{\includegraphics{img/pocoto-error-patterns.png}}
@@ -874,7 +878,7 @@ For more information about the profiler web service (and how you can install it 
 see the [profiler manual](http://www.cis.lmu.de/ocrworkshop/data/manuals/profiler-manual.pdf).
 
 ## Profiling using the profiler web service
-The easiest method to get a language profile for your OCRed document 
+The easiest method to get a language profile for your OCRed document
 is to use an existing profiler web service. The profiler web service offers the language
 and OCR result specific profiles over the Internet and makes it possible for you to get
 the results without installing any additional tools.
@@ -896,7 +900,7 @@ and open the *Profiler* tab in the window that opens up. Enter a
 profiler web service URL into the input field and click *Ok*.
 
 ### Ordering a document profile
-In order to profile your project you have to order a language dependent 
+In order to profile your project you have to order a language dependent
 document profile from the web service. Click to `Profiler -> Order document
 profile`. \pocoto{} will connect to the web service and retrieve a
 list of available languages on the server. Select the language
@@ -990,14 +994,14 @@ document using any of the two previously described methods, \pocoto{} now has so
 features available that will help you to correct misspelled words. Be
 aware though, that the profile is not always correct. The
 corrections are suggestions and often there is more than one feasible
-correction candidate. Whenever you want to apply corrections in batch mode 
+correction candidate. Whenever you want to apply corrections in batch mode
 for a whole pattern series, be sure that you do not accidentally alter valid words.
 
 ### OCR Profiler error patterns
 In the error area (3) of \pocoto{} there is a tab that shows you a
 list of common error patterns and the frequency of their
 occurrence. These error patterns show common OCR errors --
-like confusing the letter *e* with the letter *c* -- in the form 
+like confusing the letter *e* with the letter *c* -- in the form
 *correct letter(s) -> incorrect letter(s)*, as *e -> c* in our example.
 
 Historical spelling patterns like the older German Thür for Tür
@@ -1008,7 +1012,7 @@ provided language resources from which the error profile gets calculated.
 You can click onto any of those error patterns to create a concordance view
 of all the words that supposedly feature such a pattern and
 that can be corrected to valid dictionary entries using the respective
-pattern rule (see Fig. \ref{patterncorr} for the pattern *ct -> d*). 
+pattern rule (see Fig. \ref{patterncorr} for the pattern *ct -> d*).
 Just proceed to batch correct those errors as described
 in the section [Batch error correction].
 
@@ -1021,13 +1025,12 @@ always choose one of these correction candidates by clicking on
 it. The chosen token will be corrected and the text of the token
 will be updated to the suggested correction candidate.
 
-
 \begin{figure}
 \centering{\includegraphics{img/pocoto-error-patterns-correction-suggestions.png}}
 \caption{Correction suggestions for correcting single words}
 \end{figure}
 
-The correction candidates of the language and document dependent error 
+The correction candidates of the language and document dependent error
 profile also play an important role in the concordance view (see chapter
 [Concordance view]) and the batch correction of misspelled words (see
 section [Batch error correction]).
@@ -1063,6 +1066,14 @@ would be corrected to *ist*, whereas all selected instances of *fo*
 would be corrected to *so* and so on. You do not have to manually
 correct these words -- \pocoto{} is able to apply the correction
 automatically.
+
+## Unicode Normalization Format and the profiler
+
+If you intend to use the PoCoTo with the profiler you need to make
+sure that the normalization format of the input files for PoCoTo match
+those used to construct the profiler. PoCoTo, the profiler and the
+ProfilerWebService currently lack any mechanism to detect different
+normalization formats or convert between them automatically.
 
 # Exporting and importing
 \pocoto{} has some facilities to import and export files. As you have
