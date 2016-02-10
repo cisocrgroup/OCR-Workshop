@@ -33,15 +33,20 @@ install those requirements on your system if they are not already
 installed.
 
 # Language Profiler
+
 The language profiler is a program that calculates historical spelling
-variants of a (historical) document using a modern dictionary. First
-of all this part of the manual covers the general workings of the
-language profiler. Then the more technical parts -- the compilation
-and installation -- of the tool are explained in more detail. Finally
-the usage of the tool and the generation of specific language profiles
-are covered.
+variants of a (historical) document using a modern dictionary. It is
+therefore able to differentiate between *real* OCR Errors and
+historical spelling variants of words.
+
+First of all this part of the manual covers the general workings of
+the language profiler. Then the more technical parts -- the
+compilation and installation -- of the tool are explained in more
+detail. Finally the usage of the tool and the generation of specific
+language profiles are covered.
 
 ## Overview
+
 In ocred text in general and in ocred historical text in particular
 there appear to be number of words, that do not match a regular entry
 in a dictionary of the text's language. There are different
@@ -50,14 +55,15 @@ the automatic text recognition engine made a mistake on character
 level and the word is a proper dictionary entry; we call these errors
 OCR erros. Another possibility is -- particular in historical texts --
 that the OCR engine did recognize the word with no errors, but the
-historical spelling of the word differs from its modern spelling; we
-call these kind of errors historical spelling variations or errors. It
-is possible as well that both OCR and historical spelling variations
-overlap on the same words.
+historical spelling of the word differs from its modern spelling --
+these kind of errors are called historical spelling variations or
+errors. It is possible as well that both OCR and historical spelling
+variations overlap on the same words.
 
 The profiler tries to find good explanations for any of these
-*unexplained* words in the text. It therefore tries to map
-unrecognized words to dictionary entries with a minimum
+*unexplained* words in the text, using the profile of the actual
+document. It therefore tries to map unrecognized words to dictionary
+entries with a minimum
 [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance).
 In some circumstances there can be a lot of words with similar
 Levenshtein distances to a particular word, so the profiler uses
@@ -73,7 +79,14 @@ Consider the pattern rule `e -> c`. This rule describes a common OCR
 error pattern, where the letter `e` in the source text is recognized
 as a `c` by the engine. For another example for a historical spelling
 pattern consider the rule `t -> th`. It explains historical (German)
-word forms like `theil` that should map to the modern form `teil`.
+word forms like `theil` that should map to the modern form `teil`. So
+if the profiler finds a lot of unexplained words that could be
+explained with a `e -> c` OCR Error pattern, this pattern would get a
+higher priority for calculating correction candidates. On the other
+hand if the profiler would encounter a word `theil` that he could
+explain using historical patterns, he would not recognize this word as
+OCR error and would assume a historical spelling variation of the word
+`teil`.
 
 The profiler uses then modern dictionaries, built in OCR pattern rules
 and external pattern rules to calculate *the best* explanations for
@@ -97,7 +110,7 @@ required tools are installed on your system before you proceed.
 * [Xerces XML Parser](https://xerces.apache.org/xerces-c/)
 * [CppUnit](http://www.freedesktop.org/wiki/Software/cppunit/)
 * [Java Virtual Machine (JVM)](http://openjdk.java.net/)
-
+* [ICU development library](http://site.icu-project.org/)
 In the case of Xerces XML Parser and CppUnit make sure that you have
 the development headers of the according libraries installed as
 well. They are normally called `*-dev` in the different package
@@ -226,8 +239,9 @@ $ file -i myfile
 $ iconv -t UTF-8 < myfile > myutf8file
 ~~~
 
-Make sure that all your input data has the same encoding and that the
-files are in the same
+Make sure that all your input data and all your external resources
+(dictionary, patterns, historical ground truth) has the same encoding
+and that the files are in the same
 [unicode normalization form](http://www.unicode.org/faq/normalization.html)
 (either composed or decomposed). You can use the `uconv` tool of the
 `icu` package to convert between different encodings and / or
@@ -237,6 +251,12 @@ normalization forms.
 $ uconv -f utf8 -t utf8 -x [nfc|nfd] -o output.txt input.txt
 ~~~
 
+If you decide to use the decomposed normalization form for your input
+files, consider to increase the maximum allowed Levenshtein distance
+in the configuration file. The does not distinguish between real and
+combining characters. For example the profiler would calculate a
+Levenshtein distance of 2 between `quâm` and `quem` if they where
+encoded in the decomposed normalization form.
 
 #### Dictionary
 The dictionary is a simple text file that contains each word on a
@@ -252,6 +272,50 @@ If you get an error message saying `your input is not in sorted order`
 while you are using any of the profiling tools, the dictionary file
 you use is not proper sorted and you have to use the given command to
 sort the dictionary accordingly.
+
+On the other hand, if you should get an error saying `error: empty
+key` your dictionary contains at least one empty line. You can remove
+the empty lines from the dictionary using `sed`:
+
+~~~{.bash}
+sed -e '/^[[:space:]]*$/d' input.txt > output.txt
+~~~
+
+#### Simple creation of a modern dictionary with hunspell
+If you do not have any language resources available, you can use the
+spelling dictionaries of
+[OpenOffice](http://extensions.openoffice.org/) to create your own for
+usage with the profiler. You need to install
+[hunspell](https://de.wikipedia.org/wiki/Hunspell) in order to convert
+the dictionaries into the right format for the profiler.
+
+Download a *spelling* dictionary of your desired language. The
+downloaded Open Office extension is a zip archive, that you need to
+unzip before you proceed. You need two files from the archive. First
+the `.dic` dictionary file and the `.aff` file, that contains the
+different affixes of the language. For historical reasons, the files
+will be most likely encoded in iso-8859-1. Make sure to convert the
+`.dic` and `.aff` files to utf8 before you proceed.
+
+~~~{.bash}
+iconv -f ISO_8859-1 -t UTF-8 de_DE.aff > de_DE.utf8.aff
+iconv -f ISO_8859-1 -t UTF-8 de_DE.dic > de_DE.utf8.dic
+~~~
+
+Now you can use the `unmunch` utility program to generate the full
+forms from the affix and the dictionary files. The `unmunch` command
+generates composita components for some languages. You need to remove
+these from your dictionary, since the profiler cannot handle these
+entries.
+
+~~~{.bash}
+unmunch ./de_DE.dic ./de_DE.aff | grep -E -v "/|-" > mydictionary.dic
+~~~
+
+The `grep -E -v "/|-"` expression in the above command is used to
+filter out all composita components from the dictionary file. The
+resulting file can now be processed in the same way as described
+above.
 
 #### Pattern file
 The pattern file contains pattern rules that describe how to transform
@@ -622,6 +686,15 @@ different language directories under the `lex` directory. Each
 directory  contains language resources for one language. Use these
 files to  compile your own language profiles and experiment with the
 profiler.
+
+## Missing patterns file
+You can use the profiler even if you do not have any patterns
+file. In order to use the profiler without historical patterns, you
+can specify the `--allModern` command line option for the
+`trainFrequencyList` tool. For the profiler itself there is currently
+no such command line switch. To use the profiler without any
+historical patterns you have to provide a patterns file that must at
+least contain one (fake) pattern.
 
 \newpage
 
