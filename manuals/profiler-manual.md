@@ -45,7 +45,7 @@ are covered.
 In ocred text in general and in ocred historical text in particular
 there appear to be number of words, that do not match a regular entry
 in a dictionary of the text's language. There are different
-explanations for these *unexplained* words. On possibility is, that
+explanations for these *unexplained* words. One possibility is, that
 the automatic text recognition engine made a mistake on character
 level and the word is a proper dictionary entry; we call these errors
 OCR erros. Another possibility is -- particular in historical texts --
