@@ -16,4 +16,4 @@ all: $(PDFS)
 
 .PHONY: clean
 clean:
-	$(RM) *.pdf
+	rm *.pdf
