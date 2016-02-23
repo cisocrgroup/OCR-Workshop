@@ -15,7 +15,7 @@ at LMU, Munich 2015-09-14/15
 * you will be optimally prepared if the software is running on your laptop before the workshop begins, and you know how to use it
 * the software packages mentioned below are part of a complete OCR toolchain - if you miss some parts because of installation problems, we will provide you with suitable input data for each separate step
 
-[workshop]: http://www.cis.lmu.de/ocrworkshop/program.md
+[workshop]: http://www.cis.lmu.de/ocrworkshop/program.html
 
 ## OCR engines {.allowframebreaks}
 
