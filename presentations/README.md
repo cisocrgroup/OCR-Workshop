@@ -1,50 +1,21 @@
 <!-- zuletzt akualisiert: -->
 <!-- 2016-02-23, Uwe Springmann -->
 
-# **CLARIN-D Kurationsprojekt** {.aside}
-Dieser Workshop war Teil des CLARIN-D Projekts
-["Ausbau und Erweiterung eines Open-Source-Tools
-zur Nachkorrektur historischer OCR-erfasster Texte"][KP4-3]
-(CLARIN-DE-FAG4-KP3) und ist mit Ende März 2016
-abgeschlossen. Diese Seite ist daher historisch
-und wird nicht mehr aktualisiert.
-
-Der aktuelle Projektstand ist auf Github unter
-[CIS OCR Group][cisocrgroup] verfügbar.
-
-[KP4-3]: http://clarin-d.de/de/kurationsprojekt-4-3-klassische-philologie
-[cisocrgroup]: https://github.com/cisocrgroup
-
-
-# Workshop:\
-OCR und Nachkorrektur alter Drucke\
-für die Geisteswissenschaften
+## Workshop:\
+OCR and Postcorrection for Digital Humanities
 
 ## Centrum für Informations- und Sprachverarbeitung (CIS)\
     Ludwig-Maximilians-Universität München
 
 ## Announcement
+Here you find updated materials for the [OCR workshop originally held at CIS, LMU at 14/15 September 2015][ocrworkshop]. The original material for the workshop have been archived under the given link.
 
-[Announcement (pdf)][announce]
+[ocrworkshop]: http://www.cis.lmu.de/ocrworkshop
 
-[announce]: workshop.pdf
-
-## Date
-Mo. 14.09.2015, 10 Uhr, bis Dienstag 15.09., 17 Uhr
-
-## Location
-Hauptgebäude der Ludwig-Maximilians-Universität München,
-Geschwister-Scholl-Platz 1, 80539 München, Hörsaal A022
-
-## Directions
-
-[Wege an die LMU][lmu]
-
-[lmu]: <http://www.uni-muenchen.de/ueber_die_lmu/standorte/wege/index.html>
 
 ## Program {.table}
 
-Montag,  14.09.2015                                           Dienstag,  15.09.2015
+              Monday, 2015-09-14                                            Tuesday, 2015-09-15 
 ------------  -------------------------------------------     ------------  --------------------------
 10:00-10:20   Welcome, overview                               09:00-10:00   M7: [Tesseract: Practice][m7]
 10:20-11:00   M1: [Challenges & methods][m1]                  10:00-11:00   M8: [Abbyy Finereader: Practice][m8]
@@ -60,7 +31,7 @@ Montag,  14.09.2015                                           Dienstag,  15.09.2
 ----------------------------------------------------------------------------------------------------
 
  
-[m1]: http://www.cis.lmu.de/ocrworkshop/data/slides/m1-challenges.pdf
+[m1]: m1-challenges.pdf
 [m2]: http://www.cis.lmu.de/ocrworkshop/data/slides/m2-preprocessing.pdf
 [m3]: http://www.cis.lmu.de/ocrworkshop/data/slides/m3-preprocessing-practice.pdf
 [m4]: http://www.cis.lmu.de/ocrworkshop/data/slides/m4-incunabula.pdf
@@ -75,7 +46,7 @@ Montag,  14.09.2015                                           Dienstag,  15.09.2
 ## Software requirements
 [Software][software] to install on your laptop before the workshop to enable an active participation in the practice sessions
 
-[software]: m0-software.html
+[software]: m0-software.md
 
 ## Additional data
 You can browse and download the presentation slides, manuals, and data needed for the practice sessions
