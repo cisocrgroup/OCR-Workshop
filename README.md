@@ -1,3 +1,3 @@
-Tools, presentations, tutorials and data of the OCR workshop originally held at CIS, LMU 2015-09-14/15 (see www.cis.lmu.de/ocrworkshop).
+Tools, presentations, tutorials and data for the OCR workshop originally held at CIS, LMU 2015-09-14/15 (see http://www.cis.lmu.de/ocrworkshop for the original material).
 
-These materials are regularly updated.
+The material in this directory is regularly updated.
