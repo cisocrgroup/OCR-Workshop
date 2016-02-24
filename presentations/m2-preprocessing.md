@@ -123,10 +123,10 @@ Image acquisition & preprocessing
 
 Character accuracy:
                                 |
-OCR engine                       |  orig.     | prepr.
----------------------------------|------------|-------
-Tesseract (Fraktur)              |      35%   |   71%
-Abbyy (Fraktur + hist. lexicon)  |      78%   |   79%
+|OCR engine                       |  orig.     | prepr. |
+|---------------------------------|------------|--------|
+|Tesseract (Fraktur)              |      35%   |   71%  |
+|Abbyy (Fraktur + hist. lexicon)  |      78%   |   79%  |
 
 
 ## Preparing the document
