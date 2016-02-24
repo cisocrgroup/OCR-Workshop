@@ -12,10 +12,10 @@ Here you find updated material for the [OCR workshop originally held at CIS, LMU
 
 The workshop consists of 11 modules (M1 to M11) covered in a 2-day course.
 
-## Program
-
+## 
+------------------------------------------------------------------------------------------------------
               Day 1                                                         Day 2 
-------------  -------------------------------------------     ------------  --------------------------
+------------  ----------------------------------------------  ------------  --------------------------
 10:00-10:20   Welcome, overview                               09:00-10:00   M7: [Tesseract: Practice][m7]
 10:20-11:00   M1: [Challenges & methods][m1]                  10:00-11:00   M8: [Abbyy Finereader: Practice][m8]
 11:00-11:30   M2: [Image acquisition & preprocessing][m2]     11:00-12:00   M9: [The CIS error profiling technology][m9]
@@ -26,8 +26,8 @@ The workshop consists of 11 modules (M1 to M11) covered in a 2-day course.
 15:00-16:00   M5: [How to transform incunabula: Practice][m5] 15:00-16:00   M11: [PoCoTo: Practice][m11]
 16:00-16:30   M6: [Other OCR engines: Tesseract, ABBYY][m6]   16:00-16:15   Feedback & discussion
 16:30-17:00   Wrap-up: day 1                                  16:15-16:30   Wrap-up
-18:30- ??     Dinner, evening sessions ad lib.
-----------------------------------------------------------------------------------------------------
+18:30- ??     Dinner, evening sessions ad lib.                                      
+------------------------------------------------------------  --------------------------------------------
 
  
 [m1]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/m1-challenges.md
