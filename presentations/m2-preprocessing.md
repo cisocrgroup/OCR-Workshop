@@ -7,12 +7,12 @@ Image acquisition & preprocessing
 
 * remember: the complete OCR workflow consists of several steps:
 
-    #. image acquisition
-    #. preprocessing
-    #. (ground truth production, model training)
-    #. recognition
-    #. evaluation
-    #. postprocessing: annotation, error correction, tagging, ...
+    1. image acquisition
+    2. preprocessing
+    3. (ground truth production, model training)
+    4. recognition
+    5. evaluation
+    6. postprocessing: annotation, error correction, tagging, ...
     
 * "a chain is only as strong as its weakest link":
     
@@ -126,9 +126,9 @@ OCR engine                        char.acc.
                                   orig.      prepr.
 -------------------------------- ---------- ---------
 Tesseract (Fraktur)                35%       71%
-
 Abbyy (Fraktur + hist. lexicon)    78%       79%
 -----------------------------------------------------
+
 
 ## Preparing the document
 
@@ -269,14 +269,18 @@ tif image as result of preprocessing
 
 character vs. word accuracy in %:
 
-----------------------------------------------
-                char.            word       
-OCR engine         png     tif     png     tif
---------------- ------   -----   -----   -----
-Tesseract        86.42   96.06   68.18   84.55
-OCRopus          95.33   96.06   82.73   89.09
-Abbyy FR 11      96.79   95.33   92.73   91.82
-----------------------------------------------
++--------------+--------------+--------------+--------------+--------------+
+|              |    characters|              |         words|              |
++--------------+--------------+--------------+--------------+--------------+
+|    OCR engine|           png|           tif|           png|           tif|
++--------------+--------------+--------------+--------------+--------------+
+|     Tesseract|         86.42|         96.06|         68.18|         84.55|
++--------------+--------------+--------------+--------------+--------------+
+|       OCRopus|         95.33|         96.06|         82.73|         89.09|
++--------------+--------------+--------------+--------------+--------------+
+|   Abbyy FR 11|         96.79|         95.33|         92.73|         91.82|
++--------------+--------------+--------------+--------------+--------------+
+
 
 
 ## Conclusion

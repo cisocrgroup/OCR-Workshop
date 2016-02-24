@@ -27,6 +27,7 @@ The workshop consists of 11 modules (M1 to M11) covered in a 2-day course.
 16:00-16:30   M6: [Other OCR engines: Tesseract, ABBYY][m6]   16:00-16:15   Feedback & discussion
 16:30-17:00   Wrap-up: day 1                                  16:15-16:30   Wrap-up
 18:30- ??     Dinner, evening sessions ad lib.                                      
+------------  ----------------------------------------------  -----------   --------------------------
 
  
 [m1]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/m1-challenges.md
