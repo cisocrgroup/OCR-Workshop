@@ -144,7 +144,7 @@ language profiles for your documents. You will need:
 # Getting your hands dirty
 ## Overview
 * I will give you just the basics here -- You should read the
-  [documentation](http://www.cis.lmu.de/ocrworkshop/manuals/pws.pdf)
+  [documentation][profman]
   if you intend to use the profiler.
 * The profiler is developed on/for the Linux Operation System -- you
   should have access to such an OS.
@@ -157,7 +157,7 @@ language profiles for your documents. You will need:
 
 ## Installing the profiler
 * The source profiler is available through its
-  [git repository](http://gitlab.cis.lmu.de/CLARIN/pws)
+  [github repository](https://github.com/cisocrgroup/Profiler)
 * You will need a C++ compiler the additional Xerces-c XML, java and
   boost libraries on your system.
 * Compile the source code of the profiler using `make` on the provided
@@ -181,7 +181,7 @@ $ compileFBDIC dict.txt dict.fbdic
 $ profiler --generateConfig > language-profile.ini
 ```
 * edit the configuration according to the documentation in the
-  [profiler manual](http://www.cis.lmu.de/ocrworkshop/manuals/pws.pdf)
+  [profiler manual][profman]
   and add your compiled dictionary
 * generate the initial weights for your language model:
 ```{.bash}
@@ -223,7 +223,7 @@ $ profiler [...] --out_doc output.xml --out_xml corrections.xml \
   --out_html overview.html
 ```
 * See the
-[profiler manual](http://www.cis.lmu.de/ocrworkshop/manuals/pws.pdf)
+[profiler manual][profman]
 for all possible command line options
 
 ## Input and output file formats
@@ -237,7 +237,7 @@ The profiler can produce three different output formats:
 
 * The `--out_doc` option generates an output of your document in a
 format that
-[\texttt{PoCoTo}](http://www.cis.lmu.de/ocrworkshop/manuals/pocoto.pdf)
+[\texttt{PoCoTo}][pocman]
 uses.
 * The `--out_xml` option generates a profile file, that contains the
   correction suggestions.
@@ -289,3 +289,6 @@ uses.
 ```
 
 # Thanks for your attention!
+
+[pocman]: https://github.com/cisocrgroup/Resources/tree/master/manuals/pocoto-manual.md
+[profman]: https://github.com/cisocrgroup/Resources/tree/master/manuals/profiler-manual.md

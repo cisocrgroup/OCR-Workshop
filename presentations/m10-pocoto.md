@@ -51,8 +51,8 @@ The results of the text recognition must be manually improved:
 * It contains aids to automatically correct systematic errors
 * It contains linguistic and visual aids to support the
   postcorrection.
-* You can find its documentation in the
-[\pocoto{} manual](http://www.cis.lmu.de/ocrworkshop/manuals/pocoto.pdf).
+* You find its documentation in the
+[\pocoto{} manual](https://github.com/cisocrgroup/Resources/blob/master/manuals/pocoto-manual.md).
 
 ## The main areas
 \centering{\includegraphics[width=\linewidth]{images/pocotomainwindow_marked.png}}
@@ -149,7 +149,7 @@ freely adjusted:
 
 ## \pocoto{} installation
 * You can download the application from
-  [this link](http://www.cis.lmu.de/ocrworkshop/pocoto/ocrcorrection.zip)
+  [this link](http://www.cis.lmu.de/ocrworkshop/pocoto/)
     * After the download has finished you should see a file called
 `ocrcorrection.zip` in your download folder.
     * Copy or move this file to a convenient place and extract the
@@ -242,7 +242,7 @@ files. Click `finish`.
 ## Profiling a project
 * If you want to profile a document, make sure that you have
   configured a valid profiler web service url (see the
-  [profiler manual](http://www.cis.lmu.de/ocrworkshop/manuals/pocoto.pdf)
+  [profiler manual](https://github.com/cisocrgroup/Resources/blob/master/manuals/profiler-manual.md)
   for more information).
 * You can always use the default profiler url of \pocoto{}.
 * You can always profile your current project by clicking

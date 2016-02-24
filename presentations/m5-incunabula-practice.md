@@ -6,7 +6,7 @@
 ## Practice session: Overview
 Steps to do:
 
-* download the data for this session from the [data][model-data] directory
+* download the data for this session from the [data][module-data] directory
 
 * take the preprocessed pages of "Gart der Gesundheit" and do line segmentation
 
@@ -23,7 +23,7 @@ All Ocropus commands have help text, see e.g. `ocropus-gpageseg -h` for options.
 
 * in reality, a philologist/historian/etc. would do ground truth annotation and give the result to his or her IT support person (except if you are a *digital humanist*)
 
-[model-data]: http://www.cis.lmu.de/ocrworkshop/data/model-data
+[module-data]: http://www.cis.lmu.de/ocrworkshop/data/module-data
 
 ## Line segmentation
 

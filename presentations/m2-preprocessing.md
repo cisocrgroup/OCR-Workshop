@@ -5,8 +5,7 @@ Image acquisition & preprocessing
 
 ## Motivation
 
-* remember:\
-the complete OCR workflow consists of several steps:
+* remember: the complete OCR workflow consists of several steps:
 
     #. image acquisition
     #. preprocessing

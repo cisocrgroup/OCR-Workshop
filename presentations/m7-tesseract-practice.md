@@ -38,7 +38,7 @@ Module 0: Software
     ocrevalutf8 accuracy somefile.gt.txt somefile.txt | more
 ```
 
-[ryanlat]: https://github.com/ryanfb/latinocr-lat/releases/download/v0.2.2/lat.traineddata
+[ryanlat]: https://github.com/ryanfb/latinocr-lat/releases/tag/v0.3.0
 
 ## Using a GUI: gImageReader
 
