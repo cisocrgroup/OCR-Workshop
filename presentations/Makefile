@@ -1,5 +1,5 @@
 # written 2015-04-14, US
-# usage: make <target> FILE=<filename>
+# usage: make 
 
 PDFS = $(patsubst %.md,%.pdf,$(wildcard *.md))
 
@@ -12,8 +12,8 @@ all: $(PDFS)
 	    --latex-engine=xelatex \
 	    -t beamer \
 	    -H include/beamer-header.tex \
-	    -o $@
+	    -o pdfs/$@
 
 .PHONY: clean
 clean:
-	rm *.pdf
+	$(RM) pdfs/*.pdf
