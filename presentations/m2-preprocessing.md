@@ -268,7 +268,7 @@ tif image as result of preprocessing
 character vs. word accuracy in %:
 
 
-|              |    characters|              |         words|              |
+|              |          characters         |            words            |
 |--------------|--------------|--------------|--------------|--------------|
 |    OCR engine|           png|           tif|           png|           tif|
 |     Tesseract|         86.42|         96.06|         68.18|         84.55|
