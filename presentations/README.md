@@ -4,7 +4,7 @@
 This directory contains:
 
 * the sources of the presentation files in pandoc-markdown format (.md)
-* the pdf versions of the presentations (in `pdf`)
+* the pdf versions of the presentations (in `pdfs`)
 * a Makefile for converting markdown to pdf
 
 For best viewing results look at the pdfs.
