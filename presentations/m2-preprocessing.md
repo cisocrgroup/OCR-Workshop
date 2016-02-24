@@ -123,7 +123,6 @@ Image acquisition & preprocessing
 
 Character accuracy:
 
-                                |
 |OCR engine                       |    orig.| prepr.|
 |---------------------------------|---------|-------|
 |Tesseract (Fraktur)              |      35%|    71%|
