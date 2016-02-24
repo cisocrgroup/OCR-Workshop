@@ -12,7 +12,8 @@ Here you find updated material for the [OCR workshop originally held at CIS, LMU
 
 The workshop consists of 11 modules (M1 to M11) covered in a 2-day course.
 
-## 
+## Schedule
+
               Day 1                                                         Day 2 
 ------------  ----------------------------------------------  ------------  --------------------------
 10:00-10:20   Welcome, overview                               09:00-10:00   M7: [Tesseract: Practice][m7]

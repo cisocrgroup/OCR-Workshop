@@ -5,15 +5,17 @@
 
 ## Introduction
 
-This is a list of software requirements to successfully complete the practice sessions and maximize your learning experience of the workshop on [*OCR and postcorrection of early printings for digital humanities*][workshop].
-
+This is a list of software requirements to successfully complete the practice sessions and maximize your learning experience of the workshop on  
+[*OCR and postcorrection of early printings for digital humanities*][workshop]  
+at LMU, Munich 2015-09-14/15
+    
 * on OS: Linux is your best option; MacOS can be used almost as well (some problems might arise with OCRopus installation); Windows users will not be able to train or run OCRopus models (they may consider a virtualbox Linux installation)
 * our focus is on open source software
 * for Linux, almost all software is available in its package repositories and can be installed from there
 * you will be optimally prepared if the software is running on your laptop before the workshop begins, and you know how to use it
 * the software packages mentioned below are part of a complete OCR toolchain - if you miss some parts because of installation problems, we will provide you with suitable input data for each separate step
 
-[workshop]: https://github.com/cisocrgroup/OCR-Workshop
+[workshop]: http://www.cis.lmu.de/ocrworkshop/program.html
 
 ## OCR engines {.allowframebreaks}
 
@@ -31,19 +33,17 @@ This is a list of software requirements to successfully complete the practice se
     ```
 * if you want to install OCRopus in a docker environment (Mac):
     + use the [Ocrocis][ocrocis] wrapper
-* don't forget to also download some language specific Tesseract training files
-    + deu_frak.traineddata: German Fraktur
-    + grc.traineddata: Ancient Greek from [Nick White][grc]
-    + lat.traineddatea: Classical Latin from [Ryan Baumann][ryanfb]
+* don't forget to also download some [Tesseract training files for languages][tessdata], called lang.traineddata:
+    + deu_frak: German Fraktur
+    + grc: Ancient Greek from [Nick White][nickw]
+    + lat: Latin from [Ryan Baumann][ryanfb]
 
 
 [tesseract]: https://github.com/tesseract-ocr/tesseract/wiki
+[tessdata]: https://github.com/tesseract-ocr/tessdata
 [ocropy]: https://github.com/tmbdev/ocropy
 [ocrocis]: http://cistern.cis.lmu.de/ocrocis/
-[tessdata]: https://github.com/tesseract-ocr/tessdata
 [nickw]: http://ancientgreekocr.org
-[grc]: http://ancientgreekocr.org/
-[lat]: https://github.com/ryanfb/latinocr-lat/releases/download/v0.2.2/lat.traineddata
 [ryanfb]: https://ryanfb.github.io/latinocr/
 
 
