@@ -42,7 +42,7 @@ This is a list of software requirements to successfully complete the practice se
 [ocrocis]: http://cistern.cis.lmu.de/ocrocis/
 [tessdata]: https://github.com/tesseract-ocr/tessdata
 [nickw]: http://ancientgreekocr.org
-[grc]: http://ancientgreekocr.org/2.0/grc.traineddata
+[grc]: http://ancientgreekocr.org/
 [lat]: https://github.com/ryanfb/latinocr-lat/releases/download/v0.2.2/lat.traineddata
 [ryanfb]: https://ryanfb.github.io/latinocr/
 

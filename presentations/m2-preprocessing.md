@@ -269,7 +269,7 @@ tif image as result of preprocessing
 
 character vs. word accuracy in %:
 
-
+----------------------------------------------
                  char.            word       
 OCR engine         png     tif     png     tif
 -----------     ------  ------  ------  ------
@@ -278,7 +278,7 @@ Tesseract        86.42   96.06   68.18   84.55
 OCRopus          95.33   96.06   82.73   89.09
 
 Abbyy FR 11      96.79   95.33   92.73   91.82
-
+----------------------------------------------
 
 
 ## Conclusion

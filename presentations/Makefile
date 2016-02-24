@@ -2,6 +2,7 @@
 # usage: make 
 
 PDFS = $(patsubst %.md,%.pdf,$(wildcard *.md))
+VPATH = pdfs
 
 all: $(PDFS)
 

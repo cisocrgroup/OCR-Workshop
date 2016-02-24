@@ -112,7 +112,7 @@ For example the Levenshtein distance between *kitten* and *sitting* is
   patterns to work.
 * The profiler can be supplied over the web as web service.
 * The profiler and the profiler web service are is documented in the
-  [profiler manual](http://www.cis.lmu.de/ocrworkshop/manuals/pws.pdf).
+  [profiler manual][profman].
 
 ## Language profiles
 As any spellchecker, the profiler must be configured for a specific
