@@ -7,7 +7,6 @@
 
 This is a list of software requirements to successfully complete the practice sessions and maximize your learning experience of the workshop on  
 [*OCR and postcorrection of early printings for digital humanities*][workshop]  
-at LMU, Munich 2015-09-14/15
     
 * on OS: Linux is your best option; MacOS can be used almost as well (some problems might arise with OCRopus installation); Windows users will not be able to train or run OCRopus models (they may consider a virtualbox Linux installation)
 * our focus is on open source software
@@ -15,7 +14,7 @@ at LMU, Munich 2015-09-14/15
 * you will be optimally prepared if the software is running on your laptop before the workshop begins, and you know how to use it
 * the software packages mentioned below are part of a complete OCR toolchain - if you miss some parts because of installation problems, we will provide you with suitable input data for each separate step
 
-[workshop]: http://www.cis.lmu.de/ocrworkshop/program.html
+[workshop]: https://github.com/cisocrgroup/OCR-Workshop
 
 ## OCR engines {.allowframebreaks}
 
@@ -33,20 +32,20 @@ at LMU, Munich 2015-09-14/15
     ```
 * if you want to install OCRopus in a docker environment (Mac):
     + use the [Ocrocis][ocrocis] wrapper
-* don't forget to also download some Tesseract training files:
-    + [German Fraktur][deu-frak]
-    + [Ancient Greek][grc] from [Nick White][nickw]
-    + [Latin][lat] from [Ryan Baumann][ryanb]
+* don't forget to also download some language specific Tesseract training files
+    + deu_frak.traineddata: German Fraktur
+    + grc.traineddata: Ancient Greek from [Nick White][grc]
+    + lat.traineddatea: Classical Latin from [Ryan Baumann][ryanfb]
 
 
 [tesseract]: https://github.com/tesseract-ocr/tesseract/wiki
 [ocropy]: https://github.com/tmbdev/ocropy
 [ocrocis]: http://cistern.cis.lmu.de/ocrocis/
-[deu-frak]: https://code.google.com/p/tesseract-ocr/downloads/detail?name=deu-frak.traineddata.gz&can=2&q=
+[tessdata]: https://github.com/tesseract-ocr/tessdata
 [nickw]: http://ancientgreekocr.org
 [grc]: http://ancientgreekocr.org/2.0/grc.traineddata
 [lat]: https://github.com/ryanfb/latinocr-lat/releases/download/v0.2.2/lat.traineddata
-[ryanb]: https://ryanfb.github.io/latinocr/
+[ryanfb]: https://ryanfb.github.io/latinocr/
 
 
 ## Graphical frontends for Tesseract (optional)
