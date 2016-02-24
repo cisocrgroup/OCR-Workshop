@@ -122,10 +122,11 @@ Image acquisition & preprocessing
 \colEnd
 
 
-OCR engine                        char.acc.
-                                   orig.      prepr.
-Tesseract (Fraktur)                35%       71%
-Abbyy (Fraktur + hist. lexicon)    78%       79%
+OCR engine                       |  char.acc. |
+                                 |  orig.     | prepr.
+---------------------------------|------------|------
+Tesseract (Fraktur)              |  35%       | 71%
+Abbyy (Fraktur + hist. lexicon)  |  78%       | 79%
 
 
 ## Preparing the document
