@@ -5,9 +5,8 @@
 
 ## Introduction
 
-This is a list of software requirements to successfully complete the practice sessions and maximize your learning experience of the workshop on  
-[*OCR and postcorrection of early printings for digital humanities*][workshop]  
-    
+This is a list of software requirements to successfully complete the practice sessions and maximize your learning experience of the workshop on [*OCR and postcorrection of early printings for digital humanities*][workshop].
+
 * on OS: Linux is your best option; MacOS can be used almost as well (some problems might arise with OCRopus installation); Windows users will not be able to train or run OCRopus models (they may consider a virtualbox Linux installation)
 * our focus is on open source software
 * for Linux, almost all software is available in its package repositories and can be installed from there
