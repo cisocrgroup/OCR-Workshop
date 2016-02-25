@@ -61,13 +61,13 @@
 * project done at Staats- und Universitätsbibliothek Bremen (Manfred Nölte)
 * digitization support (zoning, OCR, correction) by BBAW, Berlin (Geyken, Bönig, Haaf, Jurish, Thomas, Wiegand, Würzner)
 
-![](images/grenzbot1841.pdf)\ 
+![](images/grenzbot1841.png)\ 
 
 ## ABBYY xml output
 
 * box coordinates (left, top, right, bottom)
 
-![](images/grenzboten-xml.pdf)\
+![](images/grenzboten-xml.png)\
 
 
 ## Searchable pdf

@@ -335,7 +335,6 @@ residual error on 24 herbal texts from 1487 to 1870: individually trained models
 
 \includegraphics[width=0.9\linewidth]{images/centuries.pdf}
 
-
 ## Conclusions
 
 * for modern material (even including 19th century Fraktur) the pretrained models of ABBYY, Tesseract and OCRopus give very good results (above 98% character accuracy) [@breuel2013high]

@@ -7,4 +7,4 @@ This directory contains:
 * the pdf versions of the presentations (in `pdfs`)
 * a Makefile for converting markdown to pdf
 
-For best viewing results look at the pdfs.
+For best viewing results please look at the pdfs.
