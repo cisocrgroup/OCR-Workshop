@@ -6,6 +6,8 @@
 
 
 ## Citation
+Uwe Springmann & Florian Fink (2016). CIS OCR Workshop v1.0. Zenodo. 10.5281/zenodo.46571
+[![DOI](https://zenodo.org/badge/20598/cisocrgroup/OCR-Workshop.svg)](https://zenodo.org/badge/latestdoi/20598/cisocrgroup/OCR-Workshop)
 
 # Workshop: *OCR and postcorrection of early printings for digital humanities*
 
