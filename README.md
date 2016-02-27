@@ -4,11 +4,9 @@
 ## Licence
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">CIS OCR Workshop</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/cisocrgroup/OCR-Workshop" property="cc:attributionName" rel="cc:attributionURL">Uwe Springmann, Florian Fink</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
-
 ## Citation
-Uwe Springmann & Florian Fink (2016). CIS OCR Workshop v1.0. Zenodo. 10.5281/zenodo.46571
+Uwe Springmann et al.. (2016). CIS OCR Workshop v1.0: OCR and postcorrection of early printings for digital humanities. Zenodo. 10.5281/zenodo.46571
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.46571.svg)](http://dx.doi.org/10.5281/zenodo.46571)
-
 
 
 # Workshop: *OCR and postcorrection of early printings for digital humanities*
