@@ -38,17 +38,17 @@ The workshop consists of 11 modules (M1 to M11) covered in a 2-day course.
 |18:30- ??|                 Dinner, evening sessions ad lib.|                                                        |
 
  
-[m1]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/m1-challenges.md
-[m2]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/m2-preprocessing.md
-[m3]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/m3-preprocessing-practice.md
-[m4]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/m4-incunabula.md
-[m5]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/m5-incunabula-practice.md
-[m6]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/m6-abbyy-tesseract.md
-[m7]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/m7-tesseract-practice.md
-[m8]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/m8-abbyy-practice.md
-[m9]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/m9-CIS-profiling.md
-[m10]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/m10-pocoto.md
-[m11]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/m11-pocoto-practice.md
+[m1]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/pdfs/m1-challenges.pdf
+[m2]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/pdfs/m2-preprocessing.pdf
+[m3]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/pdfs/m3-preprocessing-practice.pdf
+[m4]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/pdfs/m4-incunabula.pdf
+[m5]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/pdfs/m5-incunabula-practice.pdf
+[m6]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/pdfs/m6-abbyy-tesseract.pdf
+[m7]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/pdfs/m7-tesseract-practice.pdf
+[m8]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/pdfs/m8-abbyy-practice.pdf
+[m9]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/pdfs/m9-CIS-profiling.pdf
+[m10]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/pdfs/m10-pocoto.pdf
+[m11]: https://github.com/cisocrgroup/OCR-Workshop/tree/master/presentations/pdfs/m11-pocoto-practice.pdf
 
 ## Software requirements
 [Software][software] to install on your laptop before the workshop to enable an active participation in the practice sessions
