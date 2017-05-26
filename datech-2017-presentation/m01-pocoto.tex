@@ -1,0 +1,357 @@
+% vim: tw=80 sw=2 ts=2 ff=unix spelllang=en spell
+\input{include/beamer-header}
+\title{Datech 2017 -- \pocoto{} Workshop}
+\author{Florian~Fink}
+
+\begin{document}
+
+\begin{frame}
+	\titlepage
+\end{frame}
+
+\section{Introduction to post-correction}
+\subsection{Motivation}
+\begin{frame}
+	In the resent years a lot of historical documents have been
+	scanned and OCR'ed.
+
+	\begin{itemize}
+		\item The overall quality of the character recognition on historical
+			documents is in general good.
+		\item The performance of the OCR engines even on historical documents is
+			constantly improved.
+		\item In some cases the quality can be further improved, by further
+			adapting the original images and OCR engines.
+		\item But still the quality of the recognition is not good enough for
+			deeper scientific studies on the documents.
+	\end{itemize}
+\end{frame}
+
+
+\subsection{Text recognition on historical documents}
+\begin{frame}
+	\centering{\includegraphics[width=\linewidth]{../presentations/images/hist_spellings2.png}}
+	Example of the OCR results of a snippet of the \emph{BSB Zedlersches
+	Universallexikon: article about salmon.}
+\end{frame}
+
+\subsection{Characterise recognition rates}
+\begin{frame}
+	\begin{table}
+		\begin{tabular}{c c c c c}
+			Year & Language & ABBYY FR 11.1 & Tesseract 3.03 & OCRopus 0.7 \\\hline
+			1544 &   lat.   &    83,14      &     70,32      &      74,59 \\
+			1649 &   lat.   &    88,07      &     84,87      &      78,98 \\
+			1746 &   dt.    &    97,00      &     91,48      &      95,70 \\
+			1779 &   lat.   &    82,13      &     80,77      &      75,46 \\
+			1871 &   dt.    &    98,12      &     95,94      &      97,40 \\
+		\end{tabular}
+	\end{table}
+
+	The results of the text recognition must be manually improved:
+	\begin{itemize}
+		\item Manual (double) keying of the original sources is expensive.
+		\item Interactive postcorrection can be used examine the results of the
+			OCR.
+		\item Interactive postcorrection can be used to improve the results of the
+			OCR.
+	\end{itemize}
+\end{frame}
+
+\section{\pocoto{} -- The PostCorrectionTool}
+\subsection{Overview}
+\begin{frame}
+	\centering{\includegraphics[width=0.5\linewidth]{../presentations/images/impact.png}}
+	\begin{itemize}
+		\item \pocoto{} is a tool for the interactive post-correction of OCR'ed
+			text:
+		\item It was developed as part of the EU founded project IMPACT.
+		\item It is open source and hosted on
+			\href{https://github.com/cisocrgroup/PoCoTo}{github}.
+		\item It contains linguistic and visual aids to support the post-correction.
+		\item It contains aids to automatically correct systematic errors in the
+			documents.
+		\item You find its documentation in the
+			\href{https://github.com/cisocrgroup/Resources/blob/master/manuals/pocoto-manual.md}{\pocoto{}
+			manual} (included in this workshop's data file).
+	\end{itemize}
+\end{frame}
+
+\subsection{Features}
+\begin{frame}
+	\begin{itemize}
+		\item \pocoto{} has an automatic update mechanism -- once installed, it is
+			automatically kept up to date.
+		\item The recognition results are visualized with the images of the original
+			documents.
+		\item The concordance views enable to examine different errors and error
+			pattern over the whole document.
+		\item A specialized profiling web-service can be used to get correction
+			suggestions for unknown words and frequent error patterns in the document.
+		\item Different formats can be read, manually corrected and written back.
+	\end{itemize}
+\end{frame}
+
+\subsection{Formats}
+\begin{frame}
+	\pocoto{} supports various formats of different OCR engines:
+	\begin{itemize}
+		\item hOCR used by Tesseract and Ocropus.
+		\item ABBYY-XML used by the ABBYY FineReader.
+		\item Ocropus-Directories used by Ocropus.
+		\item DocXML used by the language profiler.
+	\end{itemize}
+\end{frame}
+
+\section{Graphical UI}
+\subsection{The main areas}
+\begin{frame}
+	\pocoto{} is composed by 5 main areas. The size of each area can be
+	freely adjusted:
+	\begin{enumerate}
+		\item The menu area contains various commands for navigation and project
+			maintenance.
+		\item The main view area shows tokens and offers the main correction
+			possibilities.
+		\item The complete image area displays the page of the current active
+			(selected) token.
+		\item The error area lists error frequency lists of common word or
+			pattern errors.
+		\item The token actions area lets you create concordance views an helps
+			you to split and merge tokens.
+	\end{enumerate}
+\end{frame}
+
+\subsection{The main areas}
+\begin{frame}
+	\centering{\includegraphics[width=\linewidth]{../presentations/images/pocotomainwindow_marked.png}}
+\end{frame}
+
+\subsection{Token-visualization}
+\begin{frame}
+	\begin{columns}
+		\column{.6\textwidth}
+		\includegraphics[height=.8\textheight]{../presentations/images/pocoto_ui.png}
+		\column{.35\textwidth}
+		\begin{itemize}
+			\item The token of the text are displayed along with their image details.
+			\item The page context shows the active token on the original page.
+			\item Error frequencies -- based on the confidence values of the OCR
+				engine -- are shown.
+		\end{itemize}
+	\end{columns}
+\end{frame}
+
+\subsection{Concordance-view}
+\begin{frame}
+	\begin{columns}
+		\column{.6\textwidth}
+		\includegraphics[height=.8\textheight]{../presentations/images/konkordanz_1.png}
+		\column{.35\textwidth}
+		\begin{itemize}
+			\item Common error patterns in the document can be examined using
+				the so-called concordance view.
+			\item The concordance view lists similar words and patterns
+				encountered in the document.
+			\item Consistent error patterns can be easily selected and
+				corrected in one step.
+		\end{itemize}
+	\end{columns}
+\end{frame}
+
+\section{Interactive post-correction}
+\subsection{Overview}
+\begin{frame}
+	\begin{itemize}
+		\item \pocoto{} supports the correction of tokens.
+		\item Split tokens (Splits) can be merged together.
+		\item Merged tokens (Merges) can be split.
+	\end{itemize}
+\end{frame}
+
+\subsection{correcting single tokens}
+\begin{frame}
+	\begin{columns}
+		\column{.6\textwidth}
+		\includegraphics<1>[height=.8\textheight]{../presentations/images/correction_1.png}
+		\includegraphics<2>[height=.8\textheight]{../presentations/images/correction_2.png}
+		\includegraphics<3>[height=.8\textheight]{../presentations/images/correction_3.png}
+		\column{.35\textwidth}
+		\begin{itemize}
+			\item \emph{Suspicious} words are marked in the text.
+			\item Words can be marked as correct.
+			\item Words can be merged with their right neighbours.
+			\item Words can be corrected manually in the window.
+		\end{itemize}
+	\end{columns}
+\end{frame}
+
+\subsection{splits and merges}
+\begin{frame}
+	\begin{columns}
+		\column{.6\textwidth}
+		\includegraphics<1>[height=.8\textheight]{../presentations/images/merge_1.png}
+		\includegraphics<2>[height=.8\textheight]{../presentations/images/merge_2.png}
+		\includegraphics<3>[height=.8\textheight]{../presentations/images/merge_3.png}
+		\includegraphics<4>[height=.8\textheight]{../presentations/images/split_1.png}
+		\includegraphics<5>[height=.8\textheight]{../presentations/images/split_2.png}
+		\includegraphics<6>[height=.8\textheight]{../presentations/images/split_3.png}
+		\column{.35\textwidth}
+		\begin{itemize}
+			\item Merged token can be easily split.
+			\item Multiple, split token can be easily merged back together.
+		\end{itemize}
+	\end{columns}
+\end{frame}
+
+\subsection{concordances}
+\begin{frame}
+	\begin{columns}
+		\column{.6\textwidth}
+		\includegraphics<1>[height=.8\textheight]{../presentations/images/konkordanz_1.png}
+		\includegraphics<2>[height=.8\textheight]{../presentations/images/konkordanz_2.png}
+		\includegraphics<3>[height=.8\textheight]{../presentations/images/konkordanz_3.png}
+		\includegraphics<4>[height=.8\textheight]{../presentations/images/konkordanz_4.png}
+		\includegraphics<5>[height=.8\textheight]{../presentations/images/konkordanz_5.png}
+		\column{.35\textwidth}
+		\begin{itemize}
+			\item Common error patterns in the document can be examined using
+				the so-called concordance view.
+			\item The concordance view lists similar words and patterns
+				encountered in the document.
+			\item Consistent error patterns can be easily selected and
+				corrected in one step.
+		\end{itemize}
+	\end{columns}
+\end{frame}
+
+\section{\pocoto{} -- Installation}
+\subsection{Installation}
+\begin{frame}
+* You can download the application from
+  [this link](http://www.cis.lmu.de/ocrworkshop/pocoto/)
+    * After the download has finished you should see a file called
+`ocrcorrection.zip` in your download folder.
+    * Copy or move this file to a convenient place and extract the
+      archive.
+    * You will see a folder called `ocrcorrection`.
+    * Navigate into the directory `ocrcorrection/bin` and double click
+      on the executable file `ocrcorrection` or `ocrcorrection.exe`
+    * You can create a link to this executable on your desktop for
+      easier access.
+    * After you double clicked on the file, \pocoto{} should start.
+    * You can create a link to this executable on your desktop for
+      easier access.
+* The downloading and installation of the tool will be covered in more
+depth in the next module
+\end{frame}
+
+\subsection{Updating}
+\begin{frame}
+\end{fame}
+
+\section{\pocoto{} -- Projects and profiles}
+\subsection{\pocoto{} project structure}
+\begin{frame}
+* \pocoto{} handles your input documents as separate projects
+* Each project is constructed over a set of different files:
+    * The XML output files of your OCR engine.
+    * The image input files of your documents -- the same that you
+    used for your OCR.
+* \pocoto{} expects those files to be organized in a specific way:
+    * All the XML files for your project should be in one folder
+    * All the image files for your project should be in another
+      folder.
+    * Each image file should have the same name as its corresponding
+      XML
+      file^[save for the file's file extension (`.xml`, `.png`, ...)].
+* It is more convenient to have the two folders for your XML and image
+  files together in one place and use this folder as base path for
+  your project.
+\end{frame}
+
+	\subsection{\pocoto{}'s file formats}
+	\begin{frame}
+\pocoto{} understands two different XML file formats, that you can use
+to create new projects.
+1. The character based Abbyy XML format.
+2. The HOCR file format.
+\pocoto{} uses the information of the Abbyy XML file format directly
+to mark *suspicious* words. It will generate an error frequency list
+for you. If you use the HOCR format, \pocoto{} is not able to generate
+such an error frequency list for you.
+\end{frame}
+
+\subsection{Creating a new project}
+\begin{frame}
+\centering{\includegraphics<1-2>[height=.4\textheight]{images/newprojectwizardstep1.png}}
+\centering{\includegraphics<3>[height=.4\textheight]{images//newprojectwizardstep2.png}}
+\centering{\includegraphics<4>[height=.4\textheight]{images/newprojectwizardstep3.png}}
+You can create new projects using the project wizard. Click to
+`file->create new project` and the first frame of the project wizard
+open.
+1. Insert a name and a path for your project. Click `next`.
+2. Insert a the path of your folder, that contains the XML files and
+   select the type of your XML files. Click `next`.
+3. Select the path to the folder, that contains your image
+files. Click `finish`.
+\end{frame}
+
+\subsection{Navigation in the project}
+\begin{frame}
+\centering{\includegraphics[width=0.8\linewidth]{images/pocototoolbar1.png}}
+* After you have created a project, you will see the first page of
+  your document opened.
+* You can go to other pages, using the buttons in the tool bar.
+* You can jump 1, 5 or 10 pages forward or backward at once or go to
+  the first or last page of your document.
+* You can navigate within a page, using your mouse wheel or the
+  scroll bars in the areas.
+* You can select or activate single token by simply clicking on them.
+* You can increase or decrease the sizes of the different areas using
+  your mouse pointer.
+\end{frame}
+
+\subsection{Creating a concordance view}
+\begin{frame}
+  \begin{columns}
+    \column{.6\textwidth}
+    \includegraphics[width=1.0\textwidth]{images/concordanceview1.png}
+    \column{.35\textwidth}
+    \begin{enumerate}
+    \item You can activate any token and if there exists any similar other
+       token you can click to the `show concordance view` button in the
+       token action area
+    \item You can click on any entry in the two error frequency lists in the
+    error area.
+    \end{enumerate}
+\end{columns}}
+\begin{frame}
+
+
+	\subsection{Profiling a project}
+	\begin{frame}
+* If you want to profile a document, make sure that you have
+  configured a valid profiler web service url (see the
+  [profiler manual](https://github.com/cisocrgroup/Resources/blob/master/manuals/profiler-manual.md)
+  for more information).
+* You can always use the default profiler url of \pocoto{}.
+* You can always profile your current project by clicking
+  `profiler->order document profiler` in the menu area:
+    * If the url is valid and the profiler web service is running, you
+      will see a window, which lets you choose which language profile
+      to use.
+    * Select a language and click to `order document profile`.
+    * Do as \pocoto{} says and get your self some coffee.
+* After the profiling has stopped, you now will have access to the
+  common error pattern tab in the error area and you will get a list
+of correction suggestions if you try to correct a token.}
+\begin{frame}
+
+	\section{}
+	\subsection{}
+\begin{frame}
+ \Huge Thanks for your attention!
+\end{frame}
+
+\end{document}
