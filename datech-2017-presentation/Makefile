@@ -1,4 +1,4 @@
-PDFS = m01-pocoto.pdf
+PDFS = m01-pocoto.pdf m02-profiler.pdf
 
 all: $(PDFS)
 
