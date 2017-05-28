@@ -26,8 +26,8 @@
 \begin{frame}
 	The language Profiler was created to help to find OCR-errors in OCR'ed
 	historical documents and to generate correction candidates for suspected
-	errors\footnote{Ulrich Reffle, 2011, \emph{Algorithmen und Methoden
-	zur dokumentenspezifischen Analyse historischer und OCR-erfasster Texte}}.
+	errors\footnote{Ulrich Reffle, \emph{Algorithmen und Methoden zur
+	dokumentenspezifischen Analyse historischer und OCR-erfasster Texte}, 2011}.
 
 	\begin{itemize}
 		\item The profiler tries to distinguish real OCR-errors from historical
@@ -41,6 +41,7 @@
 	\end{itemize}
 \end{frame}
 
+\section{Profiler}
 \subsection{Documentation}
 \begin{frame}
 	\begin{itemize}
@@ -58,10 +59,11 @@
 	\end{itemize}
 \end{frame}
 
-\subsection{Language backend}
+\subsection{Language back-end}
 \begin{frame}
-	The profiler uses a so called \emph{language backend}, that contains the
-	language dependent resources for the profiler. The language backend contains:
+	The profiler uses a so called \emph{language back-end}, that contains the
+	language dependent resources for the profiler. A minimal language back-end
+	contains at least:
 	\begin{itemize}
 		\item A configuration file
 		\item A collection of historical and modern compiled dictionaries.
@@ -84,6 +86,43 @@
 	\end{itemize}
 \end{frame}
 
+\subsection{Configuration file}
+\begin{frame}
+	\begin{itemize}
+		\item The configuration file sets some variables for the profiler.
+		\item Its main purpose is to set up the profiling process.
+		\item It defines which pattern file to use
+		\item It defines the dictionaries to use and the order of their evaluation.
+		\item There is a simple configuration file on
+			\href{https://github.com/cisocrgroup/Resources/blob/master/lexica/german.ini}{github}.
+	\end{itemize}
+\end{frame}
+
+%\subsecion{Example configuration file}
+\begin{frame}[fragile]
+	\begin{Verbatim}[fontsize=\small]
+...
+# Dictionary and Pattern settings
+[language_model]
+patternFile = "${:PATH}/patterns.txt"
+...
+# RANK 0
+[dict_modernExact]
+path = "${:PATH}/modern.fbdic"
+histPatterns = 0
+ocrErrors = 0
+ocrErrorsOnHypothetic = 0
+cascadeRank = 0
+# RANK 2
+[dict_modernHypotheticError]
+path = "${:PATH}/modern.fbdic"
+histPatterns = 3
+ocrErrors = 2
+ocrErrorsOnHypothetic = 1
+cascadeRank = 2
+	\end{Verbatim}
+\end{frame}
+
 \subsection{Pattern file}
 \begin{frame}
 	\begin{itemize}
@@ -92,6 +131,8 @@
 		\item The simplest resource to update is the historical pattern list.
 		\item It is a plain text file that can be edited.
 		\item New patterns can be added easily to the pattern file.
+		\item There are some example pattern files on
+			\href{https://github.com/cisocrgroup/Resources/tree/master/lexica}{github}.
 	\end{itemize}
 \end{frame}
 
@@ -108,10 +149,93 @@
 t:th
 # teil was often spelled theyl
 ei:ey
+# $ marks the end of words
+lich$:lig$
+bar$:lich$
 \end{verbatim}
 \end{frame}
 
-\subsection{Profiling a project}
+\subsection{Dictionaries}
+\begin{frame}
+	\begin{itemize}
+		\item Dictionaries are compiled from plain text files.
+		\item Each token is on its own line.
+		\item The text files must be sorted in ascending order.
+		\item To add entries to a dictionary, you
+			\begin{itemize}
+				\item add the dictionary entry to the file
+				\item sort the file
+				\item compile the dictionary from the sorted file
+			\end{itemize}
+		\item There are some example dictionaries on
+			\href{https://github.com/cisocrgroup/Resources/tree/master/lexica}{github}.
+	\end{itemize}
+\end{frame}
+
+\section{Profiling documents}
+\subsection{Minimal language back-end}
+\begin{frame}[fragile]
+\begin{Verbatim}
++-- my-language
+|   +-- freqlist.binfrq
+|   +-- modern.fbdic
+|   +-- patterns.txt
+|   +-- weights.txt
++-- my-language.ini
+\end{Verbatim}
+	\begin{itemize}
+		\item With the profiler you can now profile your own documents.
+		\item First of all you need a minimal language back-end.
+		\item The language back-end contains at least:
+			\begin{itemize}
+				\item A configuration file
+				\item A compiled modern dictionary
+				\item A pattern file
+				\item Two files that describe the historical ground truth
+					(\texttt{weights.txt}, \texttt{freqlist.binfrq})
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\subsection{Manual profiling}
+\begin{frame}
+	\begin{itemize}
+		\item The profiler can profile plain text or \texttt{DocXML}
+			documents.
+		\item The command \texttt{profiler --config my-language.ini --sourceFile my-doc.xml
+			--out\_xml patterns.xml --out\_doc my-doc-out.xml} starts the profiling.
+		\item The profiler produces two output files:
+			\begin{enumerate}
+				\item \texttt{patterns.xml} lists the assumed historical and OCR
+					patterns and their occurrences in the document.
+				\item \texttt{my-doc-out.xml} contains a \texttt{DocXML} file with
+					correction suggestions for the unknown tokens.
+			\end{enumerate}
+		\item The profiler has some more command options (\texttt{profiler --help}).
+	\end{itemize}
+\end{frame}
+
+\subsection{Correction candidates I}
+\begin{frame}[fragile]
+	\begin{verbatim}
+<token token_id="16" isNormal="true">
+  <ext_id>16</ext_id>
+  <wOCR>vber</wOCR>
+  <wOCR_lc>vber</wOCR_lc>
+  <wCorr></wCorr>
+  <cand>vber:{über+[(ü:v,0)]}+ocr[],voteWeight=0.9503,
+    levDistance=0</cand>
+  <cand>über:{über+[]}+ocr[(ü:v,0)],voteWeight=0.0489158,
+    levDistance=1</cand>
+  <cand>uber:{über+[(ü:u,0)]}+ocr[(u:v,0)],voteWeight=0.00...
+    levDistance=1</cand>
+  <!-- ... -->
+</token>
+	\end{verbatim}
+\end{frame}
+
+\section{Profiling with \pocoto}
+\subsection{Profiling a project with the profiling web-service}
 \begin{frame}
 	\begin{itemize}
 		\item If you want to profile a document, make sure that you have
@@ -134,22 +258,16 @@ ei:ey
 	\end{itemize}
 \end{frame}
 
-\begin{frame}[fragile]
-	\begin{verbatim}
-<token token_id="16" isNormal="true">
-  <ext_id>16</ext_id>
-  <wOCR>vber</wOCR>
-  <wOCR_lc>vber</wOCR_lc>
-  <wCorr></wCorr>
-  <cand>vber:{über+[(ü:v,0)]}+ocr[],voteWeight=0.9503,
-    levDistance=0</cand>
-  <cand>über:{über+[]}+ocr[(ü:v,0)],voteWeight=0.0489158,
-    levDistance=1</cand>
-  <cand>uber:{über+[(ü:u,0)]}+ocr[(u:v,0)],voteWeight=0.000...
-    levDistance=1</cand>
-  <!-- ... -->
-</token>\end{verbatim}
+\subsection{Profiling with a custom profiler}
+\begin{frame}
+		If the profiler web-service does not support your language or if you want to
+		improve the language resources, you can profile the document manually and
+		import it back into \pocoto{}.
+	\begin{enumerate}
+		\item Export your project \texttt{File->Export->Export as DocXML}.
+		\item Run the profiler on the \texttt{DocXML} file.
+		\item Import the two output files of the profiler back into \pocoto{}.
+	\end{enumerate}
 \end{frame}
-
 \end{document}
 
