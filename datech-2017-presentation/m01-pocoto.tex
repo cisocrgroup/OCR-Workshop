@@ -18,7 +18,7 @@
 	\begin{itemize}
 		\item The overall quality of the character recognition on historical
 			documents is in general good.
-		\item The performance of the OCR engines even on historical documents is
+		\item The performance of the OCR engines even on historical documents has
 			constantly improved.
 		\item In some cases the quality can be further improved, by further
 			adapting the original images and OCR engines.
@@ -272,7 +272,7 @@
 					folder.
 				\item Each image file should have the same name as its corresponding
 					XML
-					file, except for the file's file extension (\texttt{.xml},
+					file, except for the file's extension (\texttt{.xml},
 					\texttt{.png}, ...).
 			\end{itemize}
 		\item It is more convenient to have the two folders for your XML and image
@@ -283,16 +283,16 @@
 
 \subsection{\pocoto{}'s file formats}
 \begin{frame}
-	\pocoto{} understands two different XML file formats, that you can use
+	\pocoto{} understands three different XML file formats, that you can use
 	to create new projects.
 	\begin{enumerate}
-		\item The character based Abbyy XML format.
-		\item The HOCR file format.
+		\item The character based ABBYY-XML format.
+		\item The hOCR file format.
 		\item Ocropus-Directories.
 	\end{enumerate}
-	\pocoto{} uses the information of the Abbyy XML file format directly to mark
+	\pocoto{} uses the information of the ABBYYX-XML file format directly to mark
 	\emph{suspicious} words. It will generate an error frequency list for you. If
-	you use the HOCR format or Ocropus, \pocoto{} is not able to generate such an
+	you use the hOCR format or Ocropus, \pocoto{} is not able to generate such an
 	error frequency list for you.
 \end{frame}
 
