@@ -92,139 +92,6 @@
 	\end{itemize}
 \end{frame}
 
-\subsection{Formats}
-\begin{frame}
-	\pocoto{} supports various formats of different OCR engines:
-	\begin{itemize}
-		\item hOCR used by Tesseract and Ocropus.
-		\item ABBYY-XML used by the ABBYY FineReader.
-		\item Ocropus-Directories used by Ocropus.
-		\item DocXML used by the language profiler (next module).
-	\end{itemize}
-\end{frame}
-
-\section{Graphical UI}
-\subsection{The main areas}
-\begin{frame}
-	\pocoto{} is composed by 5 main areas. The size of each area can be
-	freely adjusted:
-	\begin{enumerate}
-		\item The menu area contains various commands for navigation and project
-			maintenance.
-		\item The main view area shows tokens and offers the main correction
-			possibilities.
-		\item The complete image area displays the page of the current active
-			(selected) token.
-		\item The error area lists error frequency lists of common word or
-			pattern errors.
-		\item The token actions area lets you create concordance views an helps
-			you to split and merge tokens.
-	\end{enumerate}
-\end{frame}
-
-\subsection{The main areas}
-\begin{frame}
-	\centering{\includegraphics[width=\linewidth]{../presentations/images/pocotomainwindow_marked.png}}
-\end{frame}
-
-\subsection{Token-visualization}
-\begin{frame}
-	\begin{columns}
-		\column{.6\textwidth}
-		\includegraphics[height=.8\textheight]{../presentations/images/pocoto_ui.png}
-		\column{.35\textwidth}
-		\begin{itemize}
-			\item The token of the text are displayed along with their image details.
-			\item The page context shows the active token on the original page.
-			\item Error frequencies -- based on the confidence values of the OCR
-				engine -- are shown.
-		\end{itemize}
-	\end{columns}
-\end{frame}
-
-\subsection{Concordance-view}
-\begin{frame}
-	\begin{columns}
-		\column{.6\textwidth}
-		\includegraphics[height=.8\textheight]{../presentations/images/konkordanz_1.png}
-		\column{.35\textwidth}
-		\begin{itemize}
-			\item Common error patterns in the document can be examined using
-				the so-called concordance view.
-			\item The concordance view lists similar words and patterns
-				encountered in the document.
-			\item Consistent error patterns can be easily selected and
-				corrected in one step.
-		\end{itemize}
-	\end{columns}
-\end{frame}
-
-\section{Interactive post-correction}
-\subsection{Overview}
-\begin{frame}
-	\begin{itemize}
-		\item \pocoto{} supports the correction of tokens.
-		\item Split tokens (Splits) can be merged together.
-		\item Merged tokens (Merges) can be split.
-	\end{itemize}
-\end{frame}
-
-\subsection{correcting single tokens}
-\begin{frame}
-	\begin{columns}
-		\column{.6\textwidth}
-		\includegraphics<1>[height=.8\textheight]{../presentations/images/correction_1.png}
-		\includegraphics<2>[height=.8\textheight]{../presentations/images/correction_2.png}
-		\includegraphics<3>[height=.8\textheight]{../presentations/images/correction_3.png}
-		\column{.35\textwidth}
-		\begin{itemize}
-			\item \emph{Suspicious} words are marked in the text.
-			\item Words can be marked as correct.
-			\item Words can be merged with their right neighbours.
-			\item Words can be corrected manually in the window.
-		\end{itemize}
-	\end{columns}
-\end{frame}
-
-\subsection{splits and merges}
-\begin{frame}
-	\begin{columns}
-		\column{.6\textwidth}
-		\includegraphics<1>[height=.8\textheight]{../presentations/images/merge_1.png}
-		\includegraphics<2>[height=.8\textheight]{../presentations/images/merge_2.png}
-		\includegraphics<3>[height=.8\textheight]{../presentations/images/merge_3.png}
-		\includegraphics<4>[height=.8\textheight]{../presentations/images/split_1.png}
-		\includegraphics<5>[height=.8\textheight]{../presentations/images/split_2.png}
-		\includegraphics<6>[height=.8\textheight]{../presentations/images/split_3.png}
-		\column{.35\textwidth}
-		\begin{itemize}
-			\item Merged token can be easily split.
-			\item Multiple, split token can be easily merged back together.
-		\end{itemize}
-	\end{columns}
-\end{frame}
-
-\subsection{concordances}
-\begin{frame}
-	\begin{columns}
-		\column{.6\textwidth}
-		\includegraphics<1>[height=.8\textheight]{../presentations/images/konkordanz_1.png}
-		\includegraphics<2>[height=.8\textheight]{../presentations/images/konkordanz_2.png}
-		\includegraphics<3>[height=.8\textheight]{../presentations/images/konkordanz_3.png}
-		\includegraphics<4>[height=.8\textheight]{../presentations/images/konkordanz_4.png}
-		\includegraphics<5>[height=.8\textheight]{../presentations/images/konkordanz_5.png}
-		\column{.35\textwidth}
-		\begin{itemize}
-			\item Common error patterns in the document can be examined using
-				the so-called concordance view.
-			\item The concordance view lists similar words and patterns
-				encountered in the document.
-			\item Consistent error patterns can be easily selected and
-				corrected in one step.
-		\end{itemize}
-	\end{columns}
-\end{frame}
-
 \section{\pocoto{} -- Installation}
 \subsection{Installation}
 \begin{frame}
@@ -252,6 +119,30 @@
 		\item To check for updates go to \texttt{Help->Check for updates}.
 		\item To control the update go to \texttt{Tools->Plugins}.
 	\end{itemize}
+\end{frame}
+
+\section{Graphical UI}
+\subsection{The main areas}
+\begin{frame}
+	\pocoto{} is composed by 5 main areas. The size of each area can be
+	freely adjusted:
+	\begin{enumerate}
+		\item The menu area contains various commands for navigation and project
+			maintenance.
+		\item The main view area shows tokens and offers the main correction
+			possibilities.
+		\item The complete image area displays the page of the current active
+			(selected) token.
+		\item The error area lists error frequency lists of common word or
+			pattern errors.
+		\item The token actions area lets you create concordance views an helps
+			you to split and merge tokens.
+	\end{enumerate}
+\end{frame}
+
+\subsection{The main areas}
+\begin{frame}
+	\centering{\includegraphics[width=\linewidth]{../presentations/images/pocotomainwindow_marked.png}}
 \end{frame}
 
 \section{\pocoto{} -- Projects and profiles}
@@ -302,14 +193,14 @@
 	\centering{\includegraphics<3>[height=.4\textheight]{../presentations/images//newprojectwizardstep2.png}}
 	\centering{\includegraphics<4>[height=.4\textheight]{../presentations/images/newprojectwizardstep3.png}}
 
-	You can create new projects using the project wizard. Click to
-	\texttt{File->New Project} and the first frame of the project wizard
-	open.
 	\begin{enumerate}
-		\item Insert a name and a path for your project. Click \texttt{Next}.
-		\item Insert the path of your folder, that contains the XML files and
+		\item<1->	You can create new projects using the project wizard. Click to
+				\texttt{File->New Project} and the first frame of the project wizard
+					open.
+		\item<2-> Insert a name and a path for your project. Click \texttt{Next}.
+		\item<3-> Insert the path of your folder, that contains the XML files and
 			select the type of your XML files. Click \texttt{Next}.
-		\item Select the path to the folder, that contains your image
+		\item<4-> Select the path to the folder, that contains your image
 			files. Click \texttt{Finish}.
 	\end{enumerate}
 \end{frame}
@@ -331,6 +222,21 @@
 	\end{itemize}
 \end{frame}
 
+\subsection{Token-visualization}
+\begin{frame}
+	\begin{columns}
+		\column{.6\textwidth}
+		\includegraphics[height=.8\textheight]{../presentations/images/pocoto_ui.png}
+		\column{.35\textwidth}
+		\begin{itemize}
+			\item The token of the text are displayed along with their image details.
+			\item The page context shows the active token on the original page.
+			\item Error frequencies -- based on the confidence values of the OCR
+				engine -- are shown.
+		\end{itemize}
+	\end{columns}
+\end{frame}
+
 \subsection{Creating a concordance view}
 \begin{frame}
 	\begin{columns}
@@ -344,6 +250,92 @@
 			\item You can click on any entry in the two error frequency lists in the
 				error area.
 		\end{enumerate}
+	\end{columns}
+\end{frame}
+
+\subsection{Concordance views}
+\begin{frame}
+	\begin{columns}
+		\column{.6\textwidth}
+		\includegraphics[height=.8\textheight]{../presentations/images/konkordanz_1.png}
+		\column{.35\textwidth}
+		\begin{itemize}
+			\item Common error patterns in the document can be examined using
+				the so-called concordance view.
+			\item The concordance view lists similar words and patterns
+				encountered in the document.
+			\item Consistent error patterns can be easily selected and
+				corrected in one step.
+		\end{itemize}
+	\end{columns}
+\end{frame}
+
+\section{Interactive post-correction}
+\subsection{Overview}
+\begin{frame}
+	\begin{itemize}
+		\item \pocoto{} automatically tokenizes the document on whitespace and
+			punctuation.
+		\item \pocoto{} supports the correction of single tokens.
+		\item Multiple occurrences of errors and (error patterns) can be corrected
+			with concordance views.
+		\item Split tokens (Splits) can be merged together.
+		\item Merged tokens (Merges) can be split.
+	\end{itemize}
+\end{frame}
+
+\subsection{correcting single tokens}
+\begin{frame}
+	\begin{columns}
+		\column{.6\textwidth}
+		\includegraphics<1>[height=.8\textheight]{../presentations/images/correction_1.png}
+		\includegraphics<2>[height=.8\textheight]{../presentations/images/correction_2.png}
+		\includegraphics<3>[height=.8\textheight]{../presentations/images/correction_3.png}
+		\column{.35\textwidth}
+		\begin{itemize}
+			\item \emph{Suspicious} words are marked in the text.
+			\item Words can be marked as correct.
+			\item Words can be merged with their right neighbours.
+			\item Words can be corrected manually in the window.
+		\end{itemize}
+	\end{columns}
+\end{frame}
+
+\subsection{Splits and merges}
+\begin{frame}
+	\begin{columns}
+		\column{.6\textwidth}
+		\includegraphics<1>[height=.8\textheight]{../presentations/images/merge_1.png}
+		\includegraphics<2>[height=.8\textheight]{../presentations/images/merge_2.png}
+		\includegraphics<3>[height=.8\textheight]{../presentations/images/merge_3.png}
+		\includegraphics<4>[height=.8\textheight]{../presentations/images/split_1.png}
+		\includegraphics<5>[height=.8\textheight]{../presentations/images/split_2.png}
+		\includegraphics<6>[height=.8\textheight]{../presentations/images/split_3.png}
+		\column{.35\textwidth}
+		\begin{itemize}
+			\item Merged token can be easily split.
+			\item Multiple, split token can be easily merged back together.
+		\end{itemize}
+	\end{columns}
+\end{frame}
+
+\subsection{Concordances}
+\begin{frame}
+	\begin{columns}
+		\column{.6\textwidth}
+		\includegraphics<1>[height=.8\textheight]{../presentations/images/konkordanz_1.png}
+		\includegraphics<2>[height=.8\textheight]{../presentations/images/konkordanz_2.png}
+		\includegraphics<3>[height=.8\textheight]{../presentations/images/konkordanz_3.png}
+		\includegraphics<4>[height=.8\textheight]{../presentations/images/konkordanz_4.png}
+		\includegraphics<5>[height=.8\textheight]{../presentations/images/konkordanz_5.png}
+		\column{.35\textwidth}
+		\begin{itemize}
+			\item Common errors and error patterns in the document can be examined
+				using the so-called concordance view.
+			\item The concordance view lists similar words and patterns
+				encountered in the document.
+			\item Consistent errors can be easily selected and corrected in one step.
+		\end{itemize}
 	\end{columns}
 \end{frame}
 
