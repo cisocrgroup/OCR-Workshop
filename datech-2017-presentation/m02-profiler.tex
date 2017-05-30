@@ -32,12 +32,13 @@
 	\begin{itemize}
 		\item The profiler tries to distinguish real OCR-errors from historical
 			spelling variants.
+		\item The profiler can detect OCR-errors in historical patterns.
 		\item The profiler uses various modern dictionaries.
 		\item The profiler uses a (language-dependent) pattern list, that describes
 			historical spelling variations.
 		\item The profiler generates a document-dependent profile (the \emph{document
-			profile}), that uses an expectation maximization algorithm to maximize the
-			probabilities of the OCR and language patterns for a given document.
+			profile}).% that uses an expectation maximization algorithm to maximize the
+			%probabilities of the OCR and language patterns for a given document.
 	\end{itemize}
 \end{frame}
 
@@ -67,9 +68,9 @@
 	\begin{itemize}
 		\item A configuration file
 		\item A collection of historical and modern compiled dictionaries.
-		\item A historical pattern file
-		\item A frequency list of a historical patterns from a ground
-			truth\footnote{This is a bug, since this resource should be optional.}
+		\item A historical pattern file \item A frequency list of a historical
+			patterns from a ground truth\footnote{This is a bug, since this resource
+			should be purely optional.}
 	\end{itemize}
 \end{frame}
 
@@ -206,7 +207,7 @@ bar$:lich$
 			--out\_xml patterns.xml --out\_doc my-doc-out.xml} starts the profiling.
 		\item The profiler produces two output files:
 			\begin{enumerate}
-				\item \texttt{patterns.xml} lists the assumed historical and OCR
+				\item \texttt{patterns.xml} lists the assumed historical and OCR-error
 					patterns and their occurrences in the document.
 				\item \texttt{my-doc-out.xml} contains a \texttt{DocXML} file with
 					correction suggestions for the unknown tokens.
@@ -231,30 +232,64 @@ bar$:lich$
     levDistance=1</cand>
   <!-- ... -->
 </token>
-	\end{verbatim}
+\end{verbatim}
+\end{frame}
+
+\subsection{Correction candidates II}
+\begin{frame}[fragile]
+	\begin{Verbatim}[fontsize=\small]
+(ocr:vber)
+uber:{über+[(ü:u,0)]}+ocr[(u:v,0)]
+^     ^      ^   ^         ^   ^
+|     |      |   |         |   |
+|     |      |   |         |   +- error pattern position
+|     |      |   |         + ---- error pattern (correct:ocr)
+|     |      |   +--------------- hist pattern position
+|     |      +------------------- hist pattern (mod:hist)
+|     +-------------------------- correct modern version
++-------------------------------- correction candidate
+\end{Verbatim}
 \end{frame}
 
 \section{Profiling with \pocoto}
+\subsection{Profiling web-service}
+\begin{frame}
+	\begin{itemize}
+		\item The profiler web-service is a wrapper around the profiler with various
+			language back-ends.
+		\item It offers a SOAP-based web interface to profile documents.
+		\item Its documentation is in the
+			\href{https://github.com/cisocrgroup/Resources/blob/master/manuals/profiler-manual.pdf}{profiler manual}
+		\item Its source code is on
+			\href{https://github.com/cisocrgroup/ProfilerWebService}{github}.
+		\item \pocoto{} can connect to such a web-service to profile a document.
+	\end{itemize}
+\end{frame}
+
+
+\subsection{Configuring the web-service}
+\begin{frame}
+	\begin{itemize}
+		\item You can configure the URL of the web-service going to
+			\texttt{Tools->Options->Profiler}
+		\item The default URL points to a profiling web-service hosted by CLARIN-D.
+		\item The CLARIN-D web-service has language-back-ends for German, Latin and
+			Greek.
+	\end{itemize}
+\end{frame}
+
 \subsection{Profiling a project with the profiling web-service}
 \begin{frame}
 	\begin{itemize}
-		\item If you want to profile a document, make sure that you have
-			configured a valid profiler web service url (see the
-			\href{https://github.com/cisocrgroup/Resources/blob/master/manuals/profiler-manual.md}{profiler
-			manual} for more information).
-		\item You can always use the default profiler url of \pocoto{}.
 		\item You can always profile your current project by clicking
-			\texttt{profiler->order document profiler} in the menu area:
-					\begin{itemize}
-						\item If the url is valid and the profiler web service is running, you
-							will see a window, which lets you choose which language profile
-							to use.
-						\item Select a language and click to \texttt{order document profile}.
-						\item Do as \pocoto{} says and get your self some coffee.
-					\end{itemize}
-				\item After the profiling has stopped, you now will have access to the
-					common error pattern tab in the error area and you will get a list
-					of correction suggestions if you try to correct a token.
+			\texttt{Profiler->Order document profiler} in the menu area.
+		\item You will be ask which language back-end to use
+		\item Select a language and click \texttt{Order document profile}.
+		\item depending on your document and the settings of the profiler the
+			profiling can take some time.
+		\item After the profiling has stopped, you now will have access to the
+			common error pattern tab in the error area and you will get a list of
+			correction suggestions if you try to correct a token.
 	\end{itemize}
 \end{frame}
 
