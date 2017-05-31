@@ -34,10 +34,11 @@
 			spelling variants.
 		\item The profiler can detect OCR-errors in historical patterns.
 		\item The profiler uses various modern dictionaries.
-		\item The profiler uses a (language-dependent) pattern list, that describes
+		\item The profiler uses a pattern list, that describes
 			historical spelling variations.
-		\item The profiler generates a document-dependent profile (the \emph{document
-			profile}).% that uses an expectation maximization algorithm to maximize the
+		\item The profiler generates a document-dependent error profile (the
+			\emph{document profile}).% that uses an expectation maximization algorithm
+			to maximize the
 			%probabilities of the OCR and language patterns for a given document.
 	\end{itemize}
 \end{frame}
@@ -67,7 +68,7 @@
 	contains at least:
 	\begin{itemize}
 		\item A configuration file
-		\item A collection of historical and modern compiled dictionaries.
+		\item A compiled modern dictionary.
 		\item A historical pattern file \item A frequency list of a historical
 			patterns from a ground truth\footnote{This is a bug, since this resource
 			should be purely optional.}
